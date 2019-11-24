@@ -16,6 +16,8 @@ https://www.twitch.tv/lannonbr
 
 https://www.twitch.tv/roberttables
 
+https://www.twitch.tv/ipwnpancakes
+
 ### Mixer
 
 https://mixer.com/juicetrades
