@@ -14,6 +14,7 @@
 - https://www.twitch.tv/marcuslyons_
 - https://www.twitch.tv/devopsjacquie
 - https://www.twitch.tv/bsb_krames
+- https://www.twitch.tv/thatzacdavis
 
 ### Mixer
 
