@@ -53,7 +53,7 @@ If you have questions or concerns about these issues please feel free to message
 
 If you are being harassed by a member of our community, notice that someone else is being harassed, or have any other concerns, please contact the administrators via mods@partycorgi.com. If the person who is harassing you is on the admin team, they will not be involved in handling or resolving the incident.
 
-The admin team will respond to any complaint as promptly as possible we can. If you do not get a timely response (for example, if no admins are currently online) then please put your personal safety and well-being first, and consider logging out and/or contacting the admins by email at [EMAIL ADDRESS HERE].
+The admin team will respond to any complaint as promptly as possible we can. If you do not get a timely response (for example, if no admins are currently online) then please put your personal safety and well-being first, and consider logging out and/or contacting the admins by email at mods@partycorgi.com.
 
 This code of conduct applies to our community's spaces, but if you are being harassed by a member of our community outside our spaces, we still want to know about it. We will take all good-faith reports of harassment by our members, especially the administrators, seriously. This includes harassment outside our spaces and harassment that took place at any point in time. The abuse team reserves the right to exclude people from the community based on their past behavior, including behavior outside of our spaces and behavior towards people who are not in this community.
 
