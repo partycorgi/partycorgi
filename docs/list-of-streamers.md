@@ -12,11 +12,13 @@
 - https://www.twitch.tv/ipwnpancakes
 - https://www.twitch.tv/rahatcodes
 - https://www.twitch.tv/marcuslyons_
-
+- https://www.twitch.tv/devopsjacquie
+- https://www.twitch.tv/bsb_krames
 
 ### Mixer
 
 - https://mixer.com/juicetrades
+- https://mixer.com/rheinardkorf
 - https://mixer.com/ryanharris
 - https://mixer.com/ncphi
 
