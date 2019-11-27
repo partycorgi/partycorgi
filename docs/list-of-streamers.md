@@ -12,10 +12,10 @@
 - https://www.twitch.tv/ipwnpancakes
 - https://www.twitch.tv/rahatcodes
 
-
 ### Mixer
 
 - https://mixer.com/juicetrades
+- https://mixer.com/rheinardkorf
 - https://mixer.com/ryanharris
 - https://mixer.com/ncphi
 
