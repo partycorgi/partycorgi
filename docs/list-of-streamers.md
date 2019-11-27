@@ -11,6 +11,7 @@
 - https://www.twitch.tv/roberttables
 - https://www.twitch.tv/ipwnpancakes
 - https://www.twitch.tv/rahatcodes
+- https://www.twitch.tv/devopsjacquie
 
 
 ### Mixer
