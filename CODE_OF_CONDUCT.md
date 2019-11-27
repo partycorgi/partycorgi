@@ -51,7 +51,7 @@ If you have questions or concerns about these issues please feel free to message
 
 ## Reporting
 
-If you are being harassed by a member of our community, notice that someone else is being harassed, or have any other concerns, please contact the administrators via [INSERT APPROPRIATE CONTACT METHOD HERE]. If the person who is harassing you is on the admin team, they will not be involved in handling or resolving the incident.
+If you are being harassed by a member of our community, notice that someone else is being harassed, or have any other concerns, please contact the administrators via mods@partycorgi.com. If the person who is harassing you is on the admin team, they will not be involved in handling or resolving the incident.
 
 The admin team will respond to any complaint as promptly as possible we can. If you do not get a timely response (for example, if no admins are currently online) then please put your personal safety and well-being first, and consider logging out and/or contacting the admins by email at [EMAIL ADDRESS HERE].
 
