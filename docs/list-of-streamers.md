@@ -16,6 +16,7 @@
 - https://www.twitch.tv/bsb_krames
 - https://www.twitch.tv/thatzacdavis
 - https://www.twitch.tv/JRGould
+- https://www.twitch.tv/magnificode
 - https://www.twitch.tv/jacobbolda
 
 ### Mixer
