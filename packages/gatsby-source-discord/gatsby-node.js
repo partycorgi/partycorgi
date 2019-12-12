@@ -34,7 +34,7 @@ exports.sourceNodes = async ({
       username: streamer.nickname ? streamer.nickname : streamer.user.username,
       avatarUrl: streamer.user.displayAvatarURL,
       id: createNodeId(`DiscordStreamer-${streamer.user.id}`),
-      discordID: stream.user.id,
+      discordID: streamer.user.id,
       internal: {
         type: 'DiscordStreamer',
         contentDigest: createContentDigest(streamer),
