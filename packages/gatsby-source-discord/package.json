@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-source-discord",
+  "version": "0.0.1",
+  "description": "A Gatsby source for loading information about Discord guilds.",
+  "main": "index.js",
+  "repository": "https://github.com/christopherbiscardi/party-corgi",
+  "contributors": [
+    "Chris Biscardi <chris@christopherbiscardi.com>",
+    "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^2.18.11",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}

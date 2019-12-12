@@ -1,0 +1,24 @@
+{
+  "name": "www",
+  "version": "0.0.1",
+  "main": "index.js",
+  "contributors": [
+    "Chris Biscardi <chris@christopherbiscardi.com>",
+    "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@mdx-js/mdx": "^1.5.1",
+    "@mdx-js/react": "^1.5.1",
+    "gatsby": "^2.18.11",
+    "gatsby-plugin-mdx": "^1.0.62",
+    "gatsby-source-discord": "*",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
