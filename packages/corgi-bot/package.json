@@ -1,0 +1,13 @@
+{
+  "name": "corgi-bot",
+  "version": "0.0.1",
+  "description": "A bot for the Party Corgi Network",
+  "main": "index.js",
+  "repository": "https://github.com/christopherbiscardi/party-corgi",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "discord.js": "discordjs/discord.js",
+    "dotenv": "^8.2.0"
+  }
+}
