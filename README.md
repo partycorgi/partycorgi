@@ -9,7 +9,7 @@ A GitHub repo containing Party Corgi related information and documents
 - Clone the repository
 - `yarn install`
 - `cd packages/www` - Move to the website directory
-- `yarn start` - Start the Gatsby server
+- `yarn develop` - Start the Gatsby server
 
 ## Code of Conduct
 
