@@ -7,9 +7,10 @@ A GitHub repo containing Party Corgi related information and documents
 ### Local development
 
 - Clone the repository
+- `yarn install`
 - `cd packages/www` - Move to the website directory
-- `npm start` - Start the Gatsby server
+- `yarn start` - Start the Gatsby server
 
 ## Code of Conduct
 
-[Code of Conduct](/coc)
+[Code of Conduct](/CODE_OF_CONDUCT.md)
