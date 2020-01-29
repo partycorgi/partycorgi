@@ -19,6 +19,7 @@ export default props => (
     <MaxWidth>
       <h1
         sx={{
+          fontWeight: 'semiBold',
           marginBottom: '32px'
         }}
       >

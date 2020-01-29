@@ -11,12 +11,13 @@ export default {
     green: '#00E893',
   },
   fonts: {
-    body: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+    body: 'Titillium Web, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
     heading: 'Georgia, serif',
     monospace: 'Menlo, monospace',
   },
   fontWeights: {
     body: 400,
+    semiBold: 500,
     heading: 700,
   },
   styles: {
