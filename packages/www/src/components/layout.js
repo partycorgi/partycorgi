@@ -13,7 +13,9 @@ const Layout = ({ children }) => (
         <Link to="/coc">code of conduct</Link>
       </nav>
     </header>
-    <main>{children}</main>
+    <main>
+      {children}
+    </main>
   </>
 );
 
