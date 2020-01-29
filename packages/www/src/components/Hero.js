@@ -14,7 +14,6 @@ export default props =>
 
 const Hero = data => {
   const { description, discordInviteUrl } = data.site.siteMetadata
-
   return (
     <section
       sx={{
