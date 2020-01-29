@@ -1,4 +1,12 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Party Corgi',
+    description:
+      'We\'re an inclusive community of content creators helping each other grow.',
+    discordInviteUrl: 'https://discord.gg/S9Gdagv',
+    siteUrl: 'https://partycorgi.com',
+    image: '/images/ogImage.png'
+  },
   plugins: [
     'gatsby-plugin-mdx',
     'gatsby-source-discord',

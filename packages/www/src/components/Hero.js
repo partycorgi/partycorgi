@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
-import React from 'react';
+import React from 'react'
 
 import { buttonStyles } from './Button'
 import MaxWidth from './MaxWidth'
