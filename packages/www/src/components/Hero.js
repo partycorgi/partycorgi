@@ -2,8 +2,10 @@
 import { jsx } from 'theme-ui'
 import React from 'react';
 
-import Button from './Button'
+import { buttonStyles } from './Button'
 import MaxWidth from './MaxWidth'
+
+const discordInviteUrl = 'https://discord.gg/S9Gdagv'
 
 export default props => (
   <section
@@ -22,7 +24,13 @@ export default props => (
       >
         We're an inclusive community of content creators helping each other grow.
       </h1>
-      <Button>Join Discord</Button>
+      <a
+        href={discordInviteUrl}
+        target='_blank'
+        sx={buttonStyles}
+      >
+        Join Discord
+      </a>
     </MaxWidth>
   </section>
 )
