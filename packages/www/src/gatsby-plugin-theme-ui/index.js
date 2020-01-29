@@ -7,7 +7,8 @@ export default {
     accent: '#fff',
     highlight: '#fff',
     muted: '#A8A0D1',
-    yellow: '#E7EE10'
+    yellow: '#E7EE10',
+    green: '#00E893',
   },
   fonts: {
     body: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
