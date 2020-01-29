@@ -1,3 +1,7 @@
 module.exports = {
-  plugins: ['gatsby-plugin-mdx', 'gatsby-source-discord'],
+  plugins: [
+    'gatsby-plugin-mdx',
+    'gatsby-source-discord',
+    'gatsby-plugin-theme-ui'
+  ],
 };
