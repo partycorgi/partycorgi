@@ -6,7 +6,9 @@ export default ({ children, ...rest }) => (
   <div
     sx={{
       maxWidth: '873px',
-      width: '100%'
+      width: '100%',
+      padding: '0 30px',
+      boxSizing: 'border-box',
     }}
     {...rest}
   >

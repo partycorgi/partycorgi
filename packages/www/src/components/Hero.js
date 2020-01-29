@@ -23,11 +23,18 @@ const Hero = data => {
         width: '100vw',
       }}
     >
-      <MaxWidth>
+      <MaxWidth
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'flex-start',
+        }}
+      >
         <h1
           sx={{
             fontWeight: 'semiBold',
-            marginBottom: '32px'
+            marginBottom: '32px',
+            maxWidth: '630px',
           }}
         >
           {description}

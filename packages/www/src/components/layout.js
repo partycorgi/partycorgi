@@ -11,7 +11,7 @@ export default ({ children }) => (
     <header sx={{
       display: 'flex',
       justifyContent: 'center',
-      padding: '40px'
+      padding: '40px 0'
     }}>
       <MaxWidth sx={{
         display: 'flex',

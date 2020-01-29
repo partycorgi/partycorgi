@@ -12,6 +12,7 @@ export default props => (
       justifyContent: 'center',
     }}>
     <MaxWidth>
+      <h1>Code of conduct</h1>
       <MDXDocument />
     </MaxWidth>
   </div>
