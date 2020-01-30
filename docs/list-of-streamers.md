@@ -18,6 +18,7 @@
 - https://www.twitch.tv/JRGould
 - https://www.twitch.tv/magnificode
 - https://www.twitch.tv/jacobbolda
+- https://www.twitch.tv/kgarbaya
 
 ### Mixer
 
