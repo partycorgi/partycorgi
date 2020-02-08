@@ -9,8 +9,9 @@ export default props => (
   <div
     sx={{
       display: 'flex',
-      justifyContent: 'center',
-    }}>
+      justifyContent: 'center'
+    }}
+  >
     <MaxWidth>
       <h1>Code of conduct</h1>
       <MDXDocument />
