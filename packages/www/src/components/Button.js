@@ -20,9 +20,4 @@ export const buttonStyles = {
   }
 }
 
-export default ({ children }) => (
-  <button
-    sx={buttonStyles}>
-    {children}
-  </button>
-)
+export default ({ children }) => <button sx={buttonStyles}>{children}</button>

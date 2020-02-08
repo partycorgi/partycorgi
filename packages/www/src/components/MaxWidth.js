@@ -8,7 +8,7 @@ export default ({ children, ...rest }) => (
       maxWidth: '873px',
       width: '100%',
       padding: '0 30px',
-      boxSizing: 'border-box',
+      boxSizing: 'border-box'
     }}
     {...rest}
   >

@@ -42,8 +42,4 @@ const query = graphql`
   }
 `
 
-export default props =>
-  <StaticQuery
-    query={query}
-    render={Nav}
-  />
+export default props => <StaticQuery query={query} render={Nav} />
