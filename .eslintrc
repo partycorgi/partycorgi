@@ -4,5 +4,9 @@
   "rules": {
     // Allow Prettier to throw errors via ESLint
     "prettier/prettier": "error"
+  },
+  "env": {
+    "browser": true,
+    "node": true
   }
 }
