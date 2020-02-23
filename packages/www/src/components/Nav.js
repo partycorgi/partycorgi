@@ -5,7 +5,9 @@ import { StaticQuery, graphql, Link } from 'gatsby'
 
 const navItemStyles = {
   padding: '8px 10px',
-  textDecoration: 'none'
+  textDecoration: 'none',
+  fontSize: 'navItem',
+  fontWeight: 'heading'
 }
 
 const Nav = data => {
