@@ -4,19 +4,19 @@ import { jsx } from 'theme-ui'
 export const buttonStyles = {
   fontSize: '16px',
   borderRadius: '6px',
-  height: '33px',
+  height: '45px',
   padding: '0 35px',
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
   transition: 'all 300ms ease',
-  backgroundColor: 'green',
-  color: 'background',
+  backgroundColor: 'lightPurple',
+  color: 'text',
   textDecoration: 'none',
   fontWeight: 'heading',
 
   '&:hover': {
-    backgroundColor: 'green'
+    backgroundColor: 'background'
   }
 }
 

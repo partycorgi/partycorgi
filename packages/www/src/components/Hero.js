@@ -16,7 +16,10 @@ const Hero = data => {
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'center',
-        width: '100vw'
+        alignItems: 'center',
+        width: '100vw',
+        height: '841px',
+        background: 'linear-gradient(164.92deg, #9B6BD3 12.72%, #00E992 84.21%)'
       }}
     >
       <MaxWidth
@@ -28,7 +31,8 @@ const Hero = data => {
       >
         <h1
           sx={{
-            fontWeight: 'semiBold',
+            fontSize: 'heading',
+            fontWeight: 'heading',
             marginBottom: '32px',
             maxWidth: '630px'
           }}

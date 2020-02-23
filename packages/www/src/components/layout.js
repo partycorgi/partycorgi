@@ -11,13 +11,23 @@ export default ({ children }) => (
     <header sx={{
       display: 'flex',
       justifyContent: 'center',
-      padding: '40px 0'
+      padding: '40px 0',
+      position: 'absolute',
+      width: '100vw'
     }}>
       <MaxWidth sx={{
         display: 'flex',
         justifyContent: 'space-between'
       }}>
-        <Link to='/'>Party Corgi!</Link>
+        <Link
+          to='/'
+          sx={{
+            fontSize: 'navItem',
+            fontWeight: 'heading'
+          }}
+        >
+          partycorgi.com
+        </Link>
         <Nav />
       </MaxWidth>
     </header>
