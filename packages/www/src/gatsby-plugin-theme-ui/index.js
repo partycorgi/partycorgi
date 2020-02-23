@@ -9,7 +9,9 @@ export default {
     muted: '#A8A0D1',
     yellow: '#E7EE10',
     green: '#00E893',
-    lightPurple: '#545165'
+    lightPurple: '#545165',
+    // TODO: Use this. Might need to move it to a different top level key and import the theme
+    heroGradient: 'linear-gradient(164.92deg, #9B6BD3 12.72%, #00E992 84.21%)'
   },
   fonts: {
     body: 'Titillium Web, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',

@@ -16,7 +16,9 @@ const Nav = data => {
   return (
     <nav
       sx={{
-        display: 'flex'
+        display: 'flex',
+        position: 'relative',
+        zIndex: 1
       }}
     >
       <a
