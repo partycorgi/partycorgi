@@ -19,6 +19,7 @@
 - https://www.twitch.tv/magnificode
 - https://www.twitch.tv/jacobbolda
 - https://www.twitch.tv/kgarbaya
+- https://www.twitch.tv/ryan_c_harris
 
 ### Mixer
 
