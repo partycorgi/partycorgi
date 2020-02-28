@@ -5,7 +5,6 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import { buttonStyles } from './Button'
 import MaxWidth from './MaxWidth'
-import Mountain from './Mountain'
 import Wordmark from './Wordmark'
 
 export default props => <StaticQuery query={query} render={Hero} />
@@ -19,7 +18,8 @@ const Hero = data => {
         justifyContent: 'center',
         alignItems: 'center',
         width: '100vw',
-        height: '841px',
+        height: '684px',
+        position: 'relative',
         background: 'linear-gradient(164.92deg, #9B6BD3 12.72%, #00E992 84.21%)'
       }}
     >
@@ -27,16 +27,19 @@ const Hero = data => {
         sx={{
           display: 'flex',
           flexDirection: 'column',
-          alignItems: 'flex-start'
+          alignItems: 'center',
+          width: '100%'
         }}
       >
         <h1
           sx={{
             fontSize: 'heading',
             fontWeight: 'heading',
+            marginTop: 0,
             marginBottom: '32px',
             maxWidth: '630px',
-            textAlign: 'center'
+            textAlign: 'center',
+            color: 'text'
           }}
         >
           {description}
@@ -45,12 +48,6 @@ const Hero = data => {
           Join Discord
         </a>
       </MaxWidth>
-      <Mountain
-        sx={{
-          position: 'absolute',
-          bottom: 0
-        }}
-      />
     </section>
   )
 }

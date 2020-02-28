@@ -5,7 +5,7 @@ import React from 'react'
 export default ({ children, ...rest }) => (
   <div
     sx={{
-      maxWidth: '873px',
+      maxWidth: '940px',
       width: '100%',
       padding: '0 30px',
       boxSizing: 'border-box'

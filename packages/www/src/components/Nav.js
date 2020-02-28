@@ -4,10 +4,17 @@ import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 
 const navItemStyles = {
-  padding: '8px 10px',
+  padding: '8px 16px',
   textDecoration: 'none',
   fontSize: 'navItem',
-  fontWeight: 'heading'
+  fontWeight: 'semiBold',
+  marginLeft: '20px',
+  transition: 'background 200ms ease',
+  borderRadius: '8px',
+
+  '&:hover': {
+    backgroundColor: 'blackTransparent'
+  }
 }
 
 const Nav = data => {

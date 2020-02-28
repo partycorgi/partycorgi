@@ -5,14 +5,15 @@ import { Link } from 'gatsby'
 export default ({ children }) =>
   <Link
     sx={{
-      fontSize: 'wordmark',
-      fontWeight: 'heading',
+      fontSize: 'navItem',
+      fontWeight: 'bold',
+      textDecoration: 'none',
 
       '&:hover': {
-        backgroundColor: 'secondary'
+        color: 'blackTransparent'
       }
     }}
     to='/'
   >
-    partycorgi.com
+    Party Corgi Network
   </Link>

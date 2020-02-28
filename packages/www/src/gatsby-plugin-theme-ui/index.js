@@ -10,6 +10,7 @@ export default {
     yellow: '#E7EE10',
     green: '#00E893',
     lightPurple: '#545165',
+    blackTransparent: 'rgba(0, 0, 0, 0.2)',
     // TODO: Use this. Might need to move it to a different top level key and import the theme
     heroGradient: 'linear-gradient(164.92deg, #9B6BD3 12.72%, #00E992 84.21%)'
   },
@@ -25,8 +26,8 @@ export default {
   },
   fontSizes: {
     heading: 42,
-    navItem: 20,
-    wordmark: 34
+    navItem: 16,
+    wordmark: 30
   },
   styles: {
     root: {

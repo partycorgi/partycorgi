@@ -12,11 +12,16 @@ export default () => (
     justifyContent: 'center',
     padding: '40px 0',
     position: 'absolute',
+    zIndex: 1,
     width: '100vw'
   }}>
     <MaxWidth sx={{
       display: 'flex',
-      justifyContent: 'space-between'
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      backgroundColor: 'lightPurple',
+      borderRadius: '10px',
+      padding: '8px 20px'
     }}>
       <Wordmark />
       <Nav />

@@ -3912,6 +3912,21 @@ eslint-plugin-react-hooks@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.7.0.tgz#6210b6d5a37205f0b92858f895a4e827020a7d04"
 
+eslint-plugin-react@7.18.3:
+  version "7.18.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.18.3.tgz#8be671b7f6be095098e79d27ac32f9580f599bc8"
+  dependencies:
+    array-includes "^3.1.1"
+    doctrine "^2.1.0"
+    has "^1.0.3"
+    jsx-ast-utils "^2.2.3"
+    object.entries "^1.1.1"
+    object.fromentries "^2.0.2"
+    object.values "^1.1.1"
+    prop-types "^15.7.2"
+    resolve "^1.14.2"
+    string.prototype.matchall "^4.0.2"
+
 eslint-plugin-react@^6.1.2:
   version "6.10.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-6.10.3.tgz#c5435beb06774e12c7db2f6abaddcbf900cd3f78"
@@ -3936,21 +3951,6 @@ eslint-plugin-react@^7.17.0:
     object.values "^1.1.0"
     prop-types "^15.7.2"
     resolve "^1.13.1"
-
-eslint-plugin-react@^7.18.3:
-  version "7.18.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.18.3.tgz#8be671b7f6be095098e79d27ac32f9580f599bc8"
-  dependencies:
-    array-includes "^3.1.1"
-    doctrine "^2.1.0"
-    has "^1.0.3"
-    jsx-ast-utils "^2.2.3"
-    object.entries "^1.1.1"
-    object.fromentries "^2.0.2"
-    object.values "^1.1.1"
-    prop-types "^15.7.2"
-    resolve "^1.14.2"
-    string.prototype.matchall "^4.0.2"
 
 eslint-plugin-standard@^2.0.0:
   version "2.3.1"
@@ -4774,6 +4774,12 @@ gatsby-page-utils@^0.0.39:
 gatsby-plugin-google-fonts@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz#d71054f7bf207b9a8da227380369e18e6f4e0201"
+
+gatsby-plugin-layout@^1.1.22:
+  version "1.1.22"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-layout/-/gatsby-plugin-layout-1.1.22.tgz#6f3b6ae9405099e06a311d835e0251b573c08169"
+  dependencies:
+    "@babel/runtime" "^7.7.6"
 
 gatsby-plugin-mdx@^1.0.62:
   version "1.0.62"
@@ -9791,7 +9797,7 @@ standard-engine@^5.0.3:
     minimist "^1.1.0"
     pkg-conf "^2.0.0"
 
-standard-react@^4.0.0:
+standard-react@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/standard-react/-/standard-react-4.0.0.tgz#1fda67cf0ca0e8025881d93faa5cc176ca6da5cd"
   dependencies:
