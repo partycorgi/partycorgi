@@ -41,7 +41,7 @@ const MobileNavItems = data => {
           rel='noopener noreferrer'
           sx={navItemStyles}
         >
-          Discord
+          Join Discord
         </a>
       </nav>
     </>

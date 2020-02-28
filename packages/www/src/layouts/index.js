@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
-import React, { useEffect } from 'react'
+import React from 'react'
 import { globalHistory } from '@reach/router'
 
 import Header from '../components/Header'
