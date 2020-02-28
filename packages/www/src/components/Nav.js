@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui'
 import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 
-import Menu from './Menu'
+import MobileMenuToggle from './MobileMenuToggle'
 
 const navItemStyles = {
   padding: '8px 16px',
@@ -46,15 +46,7 @@ const Nav = data => {
           Discord
         </a>
       </nav>
-      <nav
-        sx={{
-          display: ['flex', 'none'],
-          position: 'relative',
-          zIndex: 1,
-        }}
-      >
-        <Menu />
-      </nav>
+      <MobileMenuToggle />
     </>
   )
 }
