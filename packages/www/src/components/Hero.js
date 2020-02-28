@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import { buttonStyles } from './Button'
 import MaxWidth from './MaxWidth'
-import Wordmark from './Wordmark'
+import Discord from './Discord'
 
 export default props => <StaticQuery query={query} render={Hero} />
 
@@ -43,7 +43,10 @@ const Hero = data => {
           {description}
         </h1>
         <a href={discordInviteUrl} target='_blank' sx={buttonStyles}>
-          Join Discord
+          <Discord />
+          <span sx={{ marginLeft: '10px' }}>
+            Join Discord
+          </span>
         </a>
       </MaxWidth>
     </section>
