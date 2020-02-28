@@ -8,7 +8,7 @@ const navItemStyles = {
   textDecoration: 'none',
   fontSize: 'navItem',
   fontWeight: 'semiBold',
-  marginLeft: '20px',
+  marginLeft: '6px',
   transition: 'background 200ms ease',
   borderRadius: '8px',
 
@@ -28,6 +28,12 @@ const Nav = data => {
         zIndex: 1
       }}
     >
+      <Link to='/streamers' sx={navItemStyles}>
+        Streamers
+      </Link>
+      <Link to='/coc' sx={navItemStyles}>
+        Code of Conduct
+      </Link>
       <a
         href={discordInviteUrl}
         target='_blank'
@@ -36,9 +42,6 @@ const Nav = data => {
       >
         Discord
       </a>
-      <Link to='/coc' sx={navItemStyles}>
-        Code of Conduct
-      </Link>
     </nav>
   )
 }

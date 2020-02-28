@@ -37,7 +37,7 @@ const Hero = data => {
             fontWeight: 'heading',
             marginTop: 0,
             marginBottom: '32px',
-            maxWidth: '630px',
+            maxWidth: '760px',
             textAlign: 'center',
             color: 'text'
           }}
