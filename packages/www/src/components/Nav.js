@@ -3,6 +3,8 @@ import { jsx } from 'theme-ui'
 import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 
+import Menu from './Menu'
+
 const navItemStyles = {
   padding: '8px 16px',
   textDecoration: 'none',
@@ -21,28 +23,39 @@ const Nav = data => {
   const { discordInviteUrl } = data.site.siteMetadata
 
   return (
-    <nav
-      sx={{
-        display: 'flex',
-        position: 'relative',
-        zIndex: 1
-      }}
-    >
-      <Link to='/streamers' sx={navItemStyles}>
-        Streamers
-      </Link>
-      <Link to='/coc' sx={navItemStyles}>
-        Code of Conduct
-      </Link>
-      <a
-        href={discordInviteUrl}
-        target='_blank'
-        rel='noopener noreferrer'
-        sx={navItemStyles}
+    <>
+      <nav
+        sx={{
+          display: ['none', 'flex'],
+          position: 'relative',
+          zIndex: 1,
+        }}
       >
-        Discord
-      </a>
-    </nav>
+        <Link to='/streamers' sx={navItemStyles}>
+          Streamers
+        </Link>
+        <Link to='/coc' sx={navItemStyles}>
+          Code of Conduct
+        </Link>
+        <a
+          href={discordInviteUrl}
+          target='_blank'
+          rel='noopener noreferrer'
+          sx={navItemStyles}
+        >
+          Discord
+        </a>
+      </nav>
+      <nav
+        sx={{
+          display: ['flex', 'none'],
+          position: 'relative',
+          zIndex: 1,
+        }}
+      >
+        <Menu />
+      </nav>
+    </>
   )
 }
 

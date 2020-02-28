@@ -7,7 +7,7 @@ export default ({ children, ...rest }) => (
     sx={{
       maxWidth: '1020px',
       width: '100%',
-      padding: '0 30px',
+      padding: ['0 20px', '0 30px'],
       boxSizing: 'border-box'
     }}
     {...rest}
