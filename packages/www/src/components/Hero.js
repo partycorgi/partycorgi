@@ -33,8 +33,6 @@ const Hero = data => {
       >
         <h1
           sx={{
-            fontSize: 'heading',
-            fontWeight: 'heading',
             marginTop: 0,
             marginBottom: '32px',
             maxWidth: '760px',
