@@ -17,7 +17,7 @@ export default props => (
     <div
       sx={{
         width: '100vw',
-        height: '446px',
+        height: ['270px', '446px'],
         top: 0,
         left: 0,
         background: 'linear-gradient(164.92deg, #9B6BD3 12.72%, #00E992 84.21%)',
@@ -26,14 +26,11 @@ export default props => (
         alignItems: 'flex-end'
       }}
     >
-      <MaxWidth sx={{ position: 'relative' }}>
-
-      </MaxWidth>
     </div>
     <MaxWidth
       sx={{
         position: 'relative',
-        top: '-250px',
+        top: ['-150px', '-250px'],
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center'
@@ -44,7 +41,7 @@ export default props => (
           color: 'darkPurple',
           maxWidth: '748px',
           width: '100%',
-          marginBottom: '50px'
+          marginBottom: ['30px', '50px']
         }}
       >
         Code of conduct
@@ -56,7 +53,7 @@ export default props => (
           display: 'flex',
           justifyContent: 'center',
           width: '100%',
-          padding: ['30px', '75px 30px']
+          padding: ['20px 30px', '75px 30px']
         }}
       >
         <div sx={{ maxWidth: '748px' }}>
