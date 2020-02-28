@@ -11,7 +11,7 @@ export default () => (
     display: 'flex',
     justifyContent: 'center',
     padding: '40px 0',
-    position: 'absolute',
+    position: 'fixed',
     zIndex: 1,
     width: '100vw'
   }}>
@@ -21,7 +21,8 @@ export default () => (
       alignItems: 'center',
       backgroundColor: 'lightPurple',
       borderRadius: '10px',
-      padding: '8px 20px'
+      padding: '8px 20px',
+      boxShadow: '0px 4px 25px rgba(0, 0, 0, 0.25), 0px 2px 5px rgba(0, 0, 0, 0.15)'
     }}>
       <Wordmark />
       <Nav />
