@@ -33,8 +33,8 @@ const Hero = data => {
       >
         <h1
           sx={{
-            marginTop: 0,
-            marginBottom: '32px',
+            marginTop: '60px',
+            marginBottom: '54px',
             maxWidth: '760px',
             textAlign: 'center',
             color: 'darkPurple'

@@ -10,8 +10,10 @@ export default {
     accent: '#fff',
     highlight: '#fff',
     muted: '#A8A0D1',
-    pink: '#FF96FB',
+    pink: '#EA6AFF',
     green: '#00E893',
+    orange: '#FFAE01',
+    blue: '#6ACFFF',
     lightPurple: '#484558',
     darkPurple: '#2D2B37',
     blackTransparent: 'rgba(0, 0, 0, 0.2)',
@@ -44,7 +46,12 @@ export default {
       position: 'relative',
       a: {
         color: 'text',
-        textDecorationColor: 'pink'
+        textDecorationColor: '#EA6AFF',
+        transition: 'color 175ms ease-out',
+
+        '&:hover': {
+          color: 'blue'
+        }
       },
       h1: {
         fontSize: ['headingMobile', 'heading'],
@@ -57,6 +64,9 @@ export default {
       },
       h2: {
         marginTop: '64px'
+      },
+      h3: {
+        marginTop: '44px'
       },
       p: {
         fontSize: [16, 'p'],

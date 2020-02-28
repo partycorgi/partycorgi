@@ -2,9 +2,9 @@
 import { jsx } from 'theme-ui'
 
 export const buttonStyles = {
-  fontSize: '16px',
-  borderRadius: '6px',
-  height: '45px',
+  fontSize: '18px',
+  borderRadius: '8px',
+  height: '55px',
   padding: '0 35px',
   display: 'flex',
   justifyContent: 'center',
