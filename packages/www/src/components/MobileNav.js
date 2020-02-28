@@ -29,7 +29,7 @@ export default () => {
     }}>
       <div sx={{
         backgroundColor: 'lightPurple',
-        padding: '8px 20px',
+        padding: '8px',
         borderRadius: '10px',
         boxShadow: '0px 4px 25px rgba(0, 0, 0, 0.25), 0px 2px 5px rgba(0, 0, 0, 0.15)'
       }}>

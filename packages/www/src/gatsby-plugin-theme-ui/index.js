@@ -35,6 +35,7 @@ export default {
     heading: 50,
     headingMobile: 36,
     navItem: 16,
+    navItemMobile: 18,
     p: 18,
     wordmark: 30
   },

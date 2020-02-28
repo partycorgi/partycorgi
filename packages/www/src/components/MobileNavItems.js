@@ -4,9 +4,9 @@ import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 
 const navItemStyles = {
-  padding: '12px 0',
+  padding: '12px',
   textDecoration: 'none',
-  fontSize: 'navItem',
+  fontSize: ['navItemMobile', 'navItem'],
   fontWeight: 'semiBold',
   transition: 'background 200ms ease',
   borderRadius: '8px',
