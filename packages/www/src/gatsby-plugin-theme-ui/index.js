@@ -41,6 +41,7 @@ export default {
       // uses the theme values provided above
       fontFamily: 'body',
       fontWeight: 'body',
+      position: 'relative',
       a: {
         color: 'text',
         textDecorationColor: 'pink'
