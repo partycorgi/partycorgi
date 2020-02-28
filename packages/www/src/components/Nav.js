@@ -11,12 +11,8 @@ const navItemStyles = {
   fontSize: 'navItem',
   fontWeight: 'semiBold',
   marginLeft: '6px',
-  transition: 'background 200ms ease',
+  transition: 'all 200ms ease',
   borderRadius: '8px',
-
-  '&:hover': {
-    backgroundColor: 'blackTransparent'
-  }
 }
 
 const Nav = data => {
@@ -31,17 +27,41 @@ const Nav = data => {
           zIndex: 1,
         }}
       >
-        <Link to='/streamers' sx={navItemStyles}>
+        <Link
+          to='/streamers'
+          sx={{
+            ...navItemStyles,
+            '&:hover': {
+              backgroundColor: 'blackTransparent',
+              color: 'orange'
+            }
+          }}
+        >
           Streamers
         </Link>
-        <Link to='/coc' sx={navItemStyles}>
+        <Link
+          to='/coc'
+          sx={{
+            ...navItemStyles,
+            '&:hover': {
+              backgroundColor: 'blackTransparent',
+              color: 'green'
+            }
+          }}
+        >
           Code of Conduct
         </Link>
         <a
           href={discordInviteUrl}
           target='_blank'
           rel='noopener noreferrer'
-          sx={navItemStyles}
+          sx={{
+            ...navItemStyles,
+            '&:hover': {
+              backgroundColor: 'blackTransparent',
+              color: 'blue'
+            }
+          }}
         >
           Discord
         </a>
