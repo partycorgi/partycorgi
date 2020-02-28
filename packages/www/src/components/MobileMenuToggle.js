@@ -10,8 +10,7 @@ const toggleMobileNav = dispatch => {
 }
 
 export default props => {
-  const globalState = useContext(store)
-  const { dispatch } = globalState
+  const { dispatch } = useContext(store)
 
   return (
     <button
