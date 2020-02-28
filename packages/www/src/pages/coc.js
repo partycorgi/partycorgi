@@ -56,7 +56,7 @@ export default props => (
           display: 'flex',
           justifyContent: 'center',
           width: '100%',
-          padding: '75px 30px'
+          padding: ['30px', '75px 30px']
         }}
       >
         <div sx={{ maxWidth: '748px' }}>

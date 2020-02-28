@@ -1,4 +1,7 @@
 export default {
+  breakpoints: [
+    '40em', '56em', '64em',
+  ],
   colors: {
     text: '#fff',
     background: '#34323F',
@@ -28,6 +31,7 @@ export default {
   },
   fontSizes: {
     heading: 50,
+    headingMobile: 36,
     navItem: 16,
     p: 18,
     wordmark: 30
@@ -42,7 +46,7 @@ export default {
         textDecorationColor: 'pink'
       },
       h1: {
-        fontSize: 'heading',
+        fontSize: ['headingMobile', 'heading'],
         fontFamily: 'heading',
         fontWeight: 'heading',
         lineHeight: '130%',
@@ -54,12 +58,13 @@ export default {
         marginTop: '64px'
       },
       p: {
-        fontSize: 'p',
+        fontSize: [16, 'p'],
         lineHeight: '180%',
       },
       li: {
-        fontSize: 'p',
+        fontSize: [16, 'p'],
         lineHeight: '180%',
+        marginBottom: '1rem'
       }
     }
   }
