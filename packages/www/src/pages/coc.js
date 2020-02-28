@@ -17,7 +17,7 @@ export default props => (
     <div
       sx={{
         width: '100vw',
-        height: ['270px', '446px'],
+        height: ['270px', '406px'],
         top: 0,
         left: 0,
         background: 'linear-gradient(164.92deg, #9B6BD3 12.72%, #00E992 84.21%)',
