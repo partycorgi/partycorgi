@@ -15,7 +15,7 @@ const navItemStyles = {
   borderRadius: '8px',
 }
 
-const Nav = data => {
+const Nav = (data) => {
   const { discordInviteUrl } = data.site.siteMetadata
 
   return (
@@ -57,13 +57,14 @@ const Nav = data => {
           rel='noopener noreferrer'
           sx={{
             ...navItemStyles,
+
             '&:hover': {
               backgroundColor: 'blackTransparent',
               color: 'blue'
             }
           }}
         >
-          Discord
+          Join Discord
         </a>
       </nav>
       <MobileMenuToggle />
