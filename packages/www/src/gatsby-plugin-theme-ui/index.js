@@ -7,9 +7,9 @@ export default {
     accent: '#fff',
     highlight: '#fff',
     muted: '#A8A0D1',
-    yellow: '#E7EE10',
+    pink: '#FF96FB',
     green: '#00E893',
-    lightPurple: '#545165',
+    lightPurple: '#484558',
     darkPurple: '#2D2B37',
     blackTransparent: 'rgba(0, 0, 0, 0.2)',
     // TODO: Use this. Might need to move it to a different top level key and import the theme
@@ -39,7 +39,7 @@ export default {
       fontWeight: 'body',
       a: {
         color: 'text',
-        textDecorationColor: 'yellow'
+        textDecorationColor: 'pink'
       },
       h1: {
         fontSize: 'heading',
@@ -49,6 +49,9 @@ export default {
         color: 'primary',
         mt: 4,
         mb: 2,
+      },
+      h2: {
+        marginTop: '64px'
       },
       p: {
         fontSize: 'p',
