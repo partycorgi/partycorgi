@@ -6,7 +6,7 @@ import { store } from '../store.js'
 import Nav from './Nav'
 import MobileNav from './MobileNav'
 import MaxWidth from './MaxWidth'
-import Wordmark from './Wordmark'
+import Logo from './Logo'
 
 export default () => {
   return (
@@ -30,7 +30,7 @@ export default () => {
           height: '100%',
           position: 'relative'
         }}>
-          <Wordmark />
+          <Logo />
           <Nav />
         </div>
       </MaxWidth>
