@@ -1,63 +1,40 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
-import React from 'react'
-import { StaticQuery, graphql, Link } from 'gatsby'
+import React, { useContext, useState, useEffect } from 'react'
 
-import Menu from './Menu'
+import { store } from '../store.js'
+import MobileNavItems from './MobileNavItems'
+import MaxWidth from './MaxWidth'
 
-const navItemStyles = {
-  padding: '12px 0',
-  textDecoration: 'none',
-  fontSize: 'navItem',
-  fontWeight: 'semiBold',
-  transition: 'background 200ms ease',
-  borderRadius: '8px',
+export default () => {
+  const { state } = useContext(store)
+  const [noDisplay, setNoDisplay] = useState(true)
+  const { showMobileNav } = state
 
-  '&:hover': {
-    backgroundColor: 'blackTransparent'
-  }
-}
+  const duration = 105
 
-const Nav = data => {
-  const { discordInviteUrl } = data.site.siteMetadata
+  useEffect(() => {
+    if (!showMobileNav)
+      setTimeout(() => setNoDisplay(true), duration)
+    else setNoDisplay(false)
+  }, [showMobileNav])
 
   return (
-    <>
-      <nav
-        sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          position: 'relative',
-          zIndex: 1,
-        }}
-      >
-        <Link to='/streamers' sx={navItemStyles}>
-          Streamers
-        </Link>
-        <Link to='/coc' sx={navItemStyles}>
-          Code of Conduct
-        </Link>
-        <a
-          href={discordInviteUrl}
-          target='_blank'
-          rel='noopener noreferrer'
-          sx={navItemStyles}
-        >
-          Discord
-        </a>
-      </nav>
-    </>
+    <MaxWidth sx={{
+      position: 'absolute',
+      top: '110px',
+      transition: 'all 105ms ease-out',
+      opacity: showMobileNav ? 1 : 0,
+      display: noDisplay ? 'none' : 'block'
+    }}>
+      <div sx={{
+        backgroundColor: 'lightPurple',
+        padding: '8px 20px',
+        borderRadius: '10px',
+        boxShadow: '0px 4px 25px rgba(0, 0, 0, 0.25), 0px 2px 5px rgba(0, 0, 0, 0.15)'
+      }}>
+        <MobileNavItems />
+      </div>
+    </MaxWidth>
   )
 }
-
-const query = graphql`
-  query MobileNavQuery {
-    site {
-      siteMetadata {
-        discordInviteUrl
-      }
-    }
-  }
-`
-
-export default props => <StaticQuery query={query} render={Nav} />
