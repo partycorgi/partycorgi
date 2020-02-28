@@ -6,6 +6,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import { buttonStyles } from './Button'
 import MaxWidth from './MaxWidth'
 import Mountain from './Mountain'
+import Wordmark from './Wordmark'
 
 export default props => <StaticQuery query={query} render={Hero} />
 

@@ -11,8 +11,9 @@ module.exports = {
     'gatsby-plugin-mdx',
     'gatsby-source-discord',
     'gatsby-plugin-theme-ui',
+    'gatsby-plugin-layout',
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: ['titillium web:400,500,700'],
         display: 'swap'

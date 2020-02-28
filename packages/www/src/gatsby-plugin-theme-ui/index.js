@@ -25,7 +25,8 @@ export default {
   },
   fontSizes: {
     heading: 42,
-    navItem: 20
+    navItem: 20,
+    wordmark: 34
   },
   styles: {
     root: {
