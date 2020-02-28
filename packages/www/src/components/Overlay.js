@@ -14,8 +14,9 @@ export default () => {
       height: '100%',
       position: 'absolute',
       zIndex: 2,
-      transition: 'opacity 105ms ease-out',
-      opacity: showMobileNav ? 1 : 0
+      transition: 'all 105ms ease-out',
+      opacity: showMobileNav ? 1 : 0,
+      height: showMobileNav ? '100%' : 0
     }} />
   )
 }

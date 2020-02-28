@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
-import React, { useContext } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 
 import { store } from '../store.js'
 import Nav from './Nav'
@@ -10,7 +10,16 @@ import Wordmark from './Wordmark'
 
 export default () => {
   const { state } = useContext(store)
+  const [noDisplay, setNoDisplay] = useState(true)
   const { showMobileNav } = state
+
+  const duration = 175
+
+  useEffect(() => {
+    if (!showMobileNav)
+      setTimeout(() => setNoDisplay(true), duration)
+    else setNoDisplay(false)
+  }, [showMobileNav])
 
   return (
     <header sx={{
@@ -39,8 +48,10 @@ export default () => {
       <MaxWidth sx={{
         position: 'absolute',
         top: '110px',
-        transition: 'opacity 175ms ease-out',
-        opacity: showMobileNav ? 1 : 0
+        transition: 'all 175ms ease-out',
+        overflow: 'hidden',
+        opacity: showMobileNav ? 1 : 0,
+        display: noDisplay ? 'none' : 'block'
       }}>
         <div sx={{
           backgroundColor: 'lightPurple',
