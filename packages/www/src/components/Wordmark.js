@@ -3,17 +3,11 @@ import { jsx } from 'theme-ui'
 import { Link } from 'gatsby'
 
 export default ({ children }) =>
-  <Link
+  <p
     sx={{
       fontSize: 'navItem',
-      fontWeight: 'bold',
-      textDecoration: 'none',
-
-      '&:hover': {
-        color: 'blackTransparent'
-      }
+      fontWeight: 'bold'
     }}
-    to='/'
   >
     Party Corgi Network
-  </Link>
+  </p>
