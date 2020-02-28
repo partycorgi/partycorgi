@@ -6,11 +6,12 @@ const { Provider } = store
 
 const StateProvider = ({ children }) => {
   const [state, dispatch] = useReducer((state, action) => {
-    console.log('action', action)
     switch (action.type) {
       case 'TOGGLE_MOBILE_NAV':
         const newState = { showMobileNav: !state.showMobileNav }
         return newState
+      case 'HIDE_MOBILE_NAV':
+        return { showMobileNav: false }
       default:
         throw new Error()
     }
