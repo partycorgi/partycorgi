@@ -3,6 +3,7 @@ import { jsx } from 'theme-ui'
 import React from 'react'
 
 import Egghead from '../Egghead'
+import CapsTitle from '../CapsTitle'
 import { WhiteBackground } from './styles'
 import partyCorgiTankTop from '../../images/party-corgi-tank-top.png'
 
@@ -11,19 +12,11 @@ const tankTopUrl = 'https://store.egghead.io/product/party-corgi-tank-top'
 export default () => {
   return (
     <section sx={{
-      width: '300px'
+      marginBottom: '50px'
     }}>
-      <h2
-        sx={{
-          fontSize: ['capsTitle'],
-          fontWeight: 'body',
-          textTransform: 'uppercase',
-          letterSpacing: '1px',
-          color: 'purple30'
-        }}
-      >
+      <CapsTitle>
         Party Corgi Tank Top
-      </h2>
+      </CapsTitle>
       <a
         href={tankTopUrl}
         target='_blank'
@@ -32,11 +25,6 @@ export default () => {
           '&:hover': {
             'svg': {
               transform: 'scale3d(1.3, 1.3, 1.3) rotate(6deg)'
-            },
-
-            p: {
-              transition: 'color 200ms ease',
-              color: 'blue'
             }
           }
         }}
