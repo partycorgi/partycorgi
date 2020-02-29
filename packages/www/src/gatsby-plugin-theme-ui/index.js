@@ -1,6 +1,6 @@
 export default {
   breakpoints: [
-    '40em', '56em', '64em',
+    '45em', '56em',
   ],
   colors: {
     text: '#fff',
