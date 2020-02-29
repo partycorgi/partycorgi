@@ -41,7 +41,7 @@ export default ({ title, children }) => (
           maxWidth: '748px',
           width: '100%',
           marginBottom: ['30px', '50px'],
-          padding: '0 30px'
+          padding: ['0 30px', 0]
         }}
       >
         {title}

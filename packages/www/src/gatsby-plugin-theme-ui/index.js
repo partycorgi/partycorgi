@@ -33,7 +33,7 @@ export default {
   },
   fontSizes: {
     heading: 50,
-    headingMobile: 36,
+    headingMobile: 34,
     navItem: 16,
     navItemMobile: 18,
     p: 18,
