@@ -18,7 +18,8 @@ const Hero = data => {
         justifyContent: 'center',
         alignItems: 'center',
         width: '100vw',
-        height: '684px',
+        height: ['auto', '684px'],
+        padding: ['80px 0', 0],
         position: 'relative',
         background: 'linear-gradient(164.92deg, #9B6BD3 12.72%, #00E992 84.21%)'
       }}
