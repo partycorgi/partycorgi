@@ -15,7 +15,7 @@ const navItemStyles = {
   borderRadius: '8px',
 }
 
-const Nav = (data) => {
+const Nav = data => {
   const { discordInviteUrl } = data.site.siteMetadata
 
   return (

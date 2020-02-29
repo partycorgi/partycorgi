@@ -14,8 +14,9 @@ export default {
     green: '#00E893',
     orange: '#FFAE01',
     blue: '#6ACFFF',
-    lightPurple: '#484558',
-    darkPurple: '#2D2B37',
+    purple30: '#CBC4EF',
+    purple20: '#484558',
+    purple10: '#2D2B37',
     blackTransparent: 'rgba(0, 0, 0, 0.2)',
     // TODO: Use this. Might need to move it to a different top level key and import the theme
     heroGradient: 'linear-gradient(164.92deg, #9B6BD3 12.72%, #00E992 84.21%)'
@@ -34,6 +35,7 @@ export default {
   fontSizes: {
     heading: 50,
     headingMobile: 34,
+    capsTitle: 20,
     navItem: 16,
     navItemMobile: 18,
     p: 18,

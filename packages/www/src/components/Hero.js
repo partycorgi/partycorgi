@@ -38,7 +38,7 @@ const Hero = data => {
             marginBottom: '54px',
             maxWidth: '760px',
             textAlign: 'center',
-            color: 'darkPurple'
+            color: 'purple10'
           }}
         >
           {description}

@@ -10,7 +10,7 @@ export const buttonStyles = {
   justifyContent: 'center',
   alignItems: 'center',
   transition: 'all 300ms ease',
-  backgroundColor: 'lightPurple',
+  backgroundColor: 'purple20',
   color: 'text',
   textDecoration: 'none',
   fontWeight: 'heading',

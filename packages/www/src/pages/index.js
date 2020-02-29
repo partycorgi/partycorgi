@@ -2,6 +2,8 @@
 import { jsx } from 'theme-ui'
 
 import Hero from '../components/Hero'
+import Merch from '../components/Merch'
+import MaxWidth from '../components/MaxWidth'
 
 export default props => (
   <div
@@ -11,5 +13,10 @@ export default props => (
     }}
   >
     <Hero />
+    <div sx={{ display: 'flex', justifyContent: 'center' }}>
+      <MaxWidth>
+        <Merch />
+      </MaxWidth>
+    </div>
   </div>
 )

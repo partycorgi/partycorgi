@@ -37,7 +37,7 @@ export default () => {
       display: display ? 'block' : 'none'
     }}>
       <div sx={{
-        backgroundColor: 'lightPurple',
+        backgroundColor: 'purple20',
         padding: '8px',
         borderRadius: '10px',
         boxShadow: '0px 4px 25px rgba(0, 0, 0, 0.25), 0px 2px 5px rgba(0, 0, 0, 0.15)'
