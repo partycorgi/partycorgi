@@ -15,7 +15,7 @@ export default () => {
       justifyContent: 'center',
       height: '70px',
       position: 'fixed',
-      backgroundColor: 'darkPurple',
+      backgroundColor: 'purple10',
       zIndex: 3,
       width: '100vw',
       boxShadow: '0px 4px 25px rgba(0, 0, 0, 0.25), 0px 2px 5px rgba(0, 0, 0, 0.15)'

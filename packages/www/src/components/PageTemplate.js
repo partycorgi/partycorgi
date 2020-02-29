@@ -37,7 +37,7 @@ export default ({ title, children }) => (
     >
       <h1
         sx={{
-          color: 'darkPurple',
+          color: 'purple10',
           maxWidth: '748px',
           width: '100%',
           marginBottom: ['30px', '50px'],
@@ -48,7 +48,7 @@ export default ({ title, children }) => (
       </h1>
       <div
         sx={{
-          backgroundColor: 'lightPurple',
+          backgroundColor: 'purple20',
           borderRadius: '10px',
           display: 'flex',
           justifyContent: 'center',
