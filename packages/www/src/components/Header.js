@@ -26,7 +26,7 @@ export default () => {
           justifyContent: 'space-between',
           alignItems: 'center',
           borderRadius: '10px',
-          padding: '8px 20px',
+          padding: ['8px 0', '8px 20px'],
           height: '100%',
           position: 'relative'
         }}>
