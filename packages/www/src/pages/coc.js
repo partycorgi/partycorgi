@@ -41,7 +41,8 @@ export default props => (
           color: 'darkPurple',
           maxWidth: '748px',
           width: '100%',
-          marginBottom: ['30px', '50px']
+          marginBottom: ['30px', '50px'],
+          padding: '0 30px'
         }}
       >
         Code of conduct
