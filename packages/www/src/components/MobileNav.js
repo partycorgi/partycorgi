@@ -6,26 +6,35 @@ import { store } from '../store.js'
 import MobileNavItems from './MobileNavItems'
 import MaxWidth from './MaxWidth'
 
+const easeOutQuint = 'cubic-bezier(0.230, 1.000, 0.320, 1.000)'
+
 export default () => {
   const { state } = useContext(store)
-  const [noDisplay, setNoDisplay] = useState(true)
+  const [display, setDisplay] = useState(false)
+  const [animate, setAnimate] = useState(false)
   const { showMobileNav } = state
 
-  const duration = 105
+  const duration = 150
 
   useEffect(() => {
-    if (!showMobileNav)
-      setTimeout(() => setNoDisplay(true), duration)
-    else setNoDisplay(false)
+    if (!showMobileNav) {
+      setAnimate(false)
+      setTimeout(() => setDisplay(false), duration)
+    }
+    else {
+      setDisplay(true)
+      setTimeout(() => setAnimate(true), 10)
+    }
   }, [showMobileNav])
 
   return (
     <MaxWidth sx={{
       position: 'absolute',
       top: '110px',
-      transition: 'all 105ms ease-out',
-      opacity: showMobileNav ? 1 : 0,
-      display: noDisplay ? 'none' : 'block'
+      transition: `transform 275ms ${easeOutQuint}, opacity 150ms ${easeOutQuint}`,
+      opacity: animate ? 1 : 0,
+      transform: animate ? 'scale3d(1)' : 'scale(0.9)',
+      display: display ? 'block' : 'none'
     }}>
       <div sx={{
         backgroundColor: 'lightPurple',
