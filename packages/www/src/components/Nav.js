@@ -15,7 +15,7 @@ const navItemStyles = {
   borderRadius: '8px',
 }
 
-const Nav = data => {
+const Nav = ({ data, location }) => {
   const { discordInviteUrl } = data.site.siteMetadata
 
   return (
@@ -43,6 +43,9 @@ const Nav = data => {
           to='/coc'
           sx={{
             ...navItemStyles,
+            backgroundColor: location.pathname === '/coc' ? 'blackTransparent' : 'none',
+            color: location.pathname === '/coc' ? 'green' : 'white',
+
             '&:hover': {
               backgroundColor: 'blackTransparent',
               color: 'green'
@@ -82,4 +85,4 @@ const query = graphql`
   }
 `
 
-export default props => <StaticQuery query={query} render={Nav} />
+export default props => <StaticQuery query={query} render={(data) => <Nav data={data} location={props.location} />} />

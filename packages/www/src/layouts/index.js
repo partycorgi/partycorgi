@@ -14,7 +14,7 @@ export default ({ children, location }) => {
     <StateProvider>
       <Seo />
       <OnRouteChange />
-      <Header />
+      <Header location={location} />
       <Overlay />
       <main>
         {children}
