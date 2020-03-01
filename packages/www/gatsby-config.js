@@ -4,10 +4,10 @@ module.exports = {
     description:
       "An inclusive community of content creators helping each other grow.",
     discordInviteUrl: 'https://discord.gg/S9Gdagv',
-    twitterImage: '/images/ogImage.png',
-    twitterUsername: '',
+    twitterImage: '/ogImage.png',
+    twitterUsername: '@chrisbiscardi',
     siteUrl: 'https://partycorgi.com',
-    image: '/images/ogImage.png'
+    image: '/ogImage.png'
   },
   plugins: [
     'gatsby-plugin-mdx',
