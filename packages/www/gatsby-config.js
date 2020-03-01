@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Party Corgi',
+    title: 'Party Corgi Network',
     description:
       "An inclusive community of content creators helping each other grow.",
     discordInviteUrl: 'https://discord.gg/S9Gdagv',
+    twitterImage: '/images/ogImage.png',
+    twitterUsername: '',
     siteUrl: 'https://partycorgi.com',
     image: '/images/ogImage.png'
   },
