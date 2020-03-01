@@ -8,7 +8,7 @@ import MobileNav from './MobileNav'
 import MaxWidth from './MaxWidth'
 import Logo from './Logo'
 
-export default () => {
+export default ({ location }) => {
   return (
     <header sx={{
       display: 'flex',
@@ -31,7 +31,7 @@ export default () => {
           position: 'relative'
         }}>
           <Logo />
-          <Nav />
+          <Nav location={location} />
         </div>
       </MaxWidth>
       <MobileNav />
