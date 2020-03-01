@@ -7,7 +7,7 @@ import CapsTitle from './CapsTitle'
 export default () => {
   return (
     <section sx={{
-      width: '300px'
+      width: ['100%']
     }}>
       <CapsTitle>
         Streamers
