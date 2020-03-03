@@ -19,7 +19,6 @@ export default () => {
       </CapsTitle>
       <a
         href={tankTopUrl}
-        target='_blank'
         sx={{
           textDecoration: 'none',
           '&:hover': {
