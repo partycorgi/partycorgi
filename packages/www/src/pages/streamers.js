@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui'
 import React from 'react'
 
 import PageTemplate from '../components/PageTemplate'
-import MDXDocument from '../content/streamers.mdx'
+import MDXDocument from '../../../../docs/list-of-streamers.md'
 
 export default () =>
   <PageTemplate title='Streamers'>

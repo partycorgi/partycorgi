@@ -10,7 +10,12 @@ module.exports = {
     image: '/ogImage.png'
   },
   plugins: [
-    'gatsby-plugin-mdx',
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      },
+    },
     'gatsby-source-discord',
     'gatsby-plugin-theme-ui',
     'gatsby-plugin-layout',

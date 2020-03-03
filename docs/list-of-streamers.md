@@ -1,33 +1,33 @@
-# List of streamers in Discord
+List of streamers in the Party Corgi Discord.
 
 ### Twitch
 
-- https://www.twitch.tv/chrisbiscardi
-- https://www.twitch.tv/thecodepixi
-- https://www.twitch.tv/ecomath328
-- https://www.twitch.tv/horacioh
-- https://www.twitch.tv/jlengstorf
-- https://www.twitch.tv/lannonbr
-- https://www.twitch.tv/roberttables
-- https://www.twitch.tv/ipwnpancakes
-- https://www.twitch.tv/rahatcodes
-- https://www.twitch.tv/marcuslyons_
-- https://www.twitch.tv/devopsjacquie
-- https://www.twitch.tv/KramerCodes
-- https://www.twitch.tv/thatzacdavis
-- https://www.twitch.tv/JRGould
-- https://www.twitch.tv/magnificode
-- https://www.twitch.tv/jacobbolda
-- https://www.twitch.tv/kgarbaya
-- https://www.twitch.tv/ryan_c_harris
+- [chrisbiscardi](https://www.twitch.tv/chrisbiscardi)
+- [thecodepixi](https://www.twitch.tv/thecodepixi)
+- [ecomath328](https://www.twitch.tv/ecomath328)
+- [horacioh](https://www.twitch.tv/horacioh)
+- [jlengstorf](https://www.twitch.tv/jlengstorf)
+- [lannonbr](https://www.twitch.tv/lannonbr)
+- [roberttables](https://www.twitch.tv/roberttables)
+- [ipwnpancakes](https://www.twitch.tv/ipwnpancakes)
+- [rahatcodes](https://www.twitch.tv/rahatcodes)
+- [marcuslyons_](https://www.twitch.tv/marcuslyons_)
+- [devopsjacquie](https://www.twitch.tv/devopsjacquie)
+- [KramerCodes](https://www.twitch.tv/KramerCodes)
+- [thatzacdavis](https://www.twitch.tv/thatzacdavis)
+- [JRGould](https://www.twitch.tv/JRGould)
+- [magnificode](https://www.twitch.tv/magnificode)
+- [jacobbolda](https://www.twitch.tv/jacobbolda)
+- [kgarbaya](https://www.twitch.tv/kgarbaya)
+- [RyanWarnerCodes](https://www.twitch.tv/RyanWarnerCodes)
 
 ### Mixer
 
-- https://mixer.com/juicetrades
-- https://mixer.com/rheinardkorf
-- https://mixer.com/ryanharris
-- https://mixer.com/ncphi
+- [juicetrades](https://mixer.com/juicetrades)
+- [rheinardkorf](https://mixer.com/rheinardkorf)
+- [ryanharris](https://mixer.com/ryanharris)
+- [ncphi](https://mixer.com/ncphi)
 
 ### Events / Organizations
 
-- https://www.twitch.tv/reactadelphia/
+- [reactadelphia](https://www.twitch.tv/reactadelphia/)
