@@ -31,6 +31,9 @@ const Nav = ({ data, location }) => {
           to='/streamers'
           sx={{
             ...navItemStyles,
+            backgroundColor: location.pathname === '/streamers' ? 'blackTransparent' : 'none',
+            color: location.pathname === '/streamers' ? 'orange' : 'white',
+
             '&:hover': {
               backgroundColor: 'blackTransparent',
               color: 'orange'
