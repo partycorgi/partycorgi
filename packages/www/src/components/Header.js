@@ -34,7 +34,7 @@ export default ({ location }) => {
           <Nav location={location} />
         </div>
       </MaxWidth>
-      <MobileNav />
+      <MobileNav location={location} />
     </header>
   )
 }

@@ -8,7 +8,7 @@ import MaxWidth from './MaxWidth'
 
 const easeOutQuint = 'cubic-bezier(0.230, 1.000, 0.320, 1.000)'
 
-export default () => {
+export default ({ location }) => {
   const { state } = useContext(store)
   const [display, setDisplay] = useState(false)
   const [animate, setAnimate] = useState(false)
@@ -42,7 +42,7 @@ export default () => {
         borderRadius: '10px',
         boxShadow: '0px 4px 25px rgba(0, 0, 0, 0.25), 0px 2px 5px rgba(0, 0, 0, 0.15)'
       }}>
-        <MobileNavItems />
+        <MobileNavItems location={location} />
       </div>
     </MaxWidth>
   )
