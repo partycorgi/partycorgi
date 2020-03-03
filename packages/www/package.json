@@ -4,7 +4,8 @@
   "main": "index.js",
   "contributors": [
     "Chris Biscardi <chris@christopherbiscardi.com>",
-    "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)"
+    "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
+    "Ryan Warner <ryan@warner.codes> (https://ryan.warner.codes)"
   ],
   "scripts": {
     "develop": "gatsby develop",
