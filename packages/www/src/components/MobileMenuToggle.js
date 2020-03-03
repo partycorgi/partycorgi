@@ -9,6 +9,8 @@ const toggleMobileNav = dispatch => {
   dispatch({ type: 'TOGGLE_MOBILE_NAV' })
 }
 
+// TODO: Allow the escape key to close the mobile menu
+
 export default props => {
   const { dispatch } = useContext(store)
 
