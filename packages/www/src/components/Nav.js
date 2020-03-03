@@ -4,6 +4,7 @@ import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 
 import MobileMenuToggle from './MobileMenuToggle'
+import navItems from '../data/navItems'
 
 const navItemStyles = {
   padding: '8px 16px',
@@ -27,36 +28,23 @@ const Nav = ({ data, location }) => {
           zIndex: 1,
         }}
       >
-        <Link
-          to='/streamers'
-          sx={{
-            ...navItemStyles,
-            backgroundColor: location.pathname === '/streamers' ? 'blackTransparent' : 'none',
-            color: location.pathname === '/streamers' ? 'orange' : 'white',
+        {Object.values(navItems).map(item => (
+          <Link
+            to={item.url}
+            sx={{
+              ...navItemStyles,
+              backgroundColor: location.pathname === item.url ? 'blackTransparent' : 'none',
+              color: location.pathname === item.url ? item.color : 'white',
 
-            '&:hover': {
-              backgroundColor: 'blackTransparent',
-              color: 'orange'
-            }
-          }}
-        >
-          Streamers
-        </Link>
-        <Link
-          to='/coc'
-          sx={{
-            ...navItemStyles,
-            backgroundColor: location.pathname === '/coc' ? 'blackTransparent' : 'none',
-            color: location.pathname === '/coc' ? 'green' : 'white',
-
-            '&:hover': {
-              backgroundColor: 'blackTransparent',
-              color: 'green'
-            }
-          }}
-        >
-          Code of Conduct
-        </Link>
+              '&:hover': {
+                backgroundColor: 'blackTransparent',
+                color: item.color
+              }
+            }}
+          >
+            {item.display}
+          </Link>
+        ))}
         <a
           href={discordInviteUrl}
           target='_blank'
