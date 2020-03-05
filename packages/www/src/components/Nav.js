@@ -47,8 +47,6 @@ const Nav = ({ data, location }) => {
         ))}
         <a
           href={discordInviteUrl}
-          target='_blank'
-          rel='noopener noreferrer'
           sx={{
             ...navItemStyles,
 
