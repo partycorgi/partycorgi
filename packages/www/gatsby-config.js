@@ -4,10 +4,10 @@ module.exports = {
     description:
       "An inclusive community of content creators helping each other grow.",
     discordInviteUrl: 'https://discord.gg/S9Gdagv',
-    twitterImage: '/ogImage.png',
+    twitterImage: '/ogImage.jpg',
     twitterUsername: '@chrisbiscardi',
     siteUrl: 'https://partycorgi.com',
-    image: '/ogImage.png'
+    image: '/ogImage.jpg'
   },
   plugins: [
     {
