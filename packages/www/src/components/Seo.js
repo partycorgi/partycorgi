@@ -33,7 +33,11 @@ const Seo = ({ description, lang, meta, keywords, title, siteUrl, image }) => {
               },
               {
                 property: 'og:title',
-                content: title
+                content: title || siteMetadata.title
+              },
+              {
+                name: 'og:url',
+                content: siteUrl
               },
               {
                 property: 'og:image',
