@@ -19,6 +19,7 @@ module.exports = {
     'gatsby-source-discord',
     'gatsby-plugin-theme-ui',
     'gatsby-plugin-layout',
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
