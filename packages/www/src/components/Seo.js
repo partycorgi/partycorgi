@@ -40,6 +40,14 @@ const Seo = ({ description, lang, meta, keywords, title, siteUrl, image }) => {
                 content: `${siteUrl}${ogImage}`
               },
               {
+                property: 'og:image:width',
+                content: '1200'
+              },
+              {
+                property: 'og:image:height',
+                content: '630'
+              },
+              {
                 property: 'og:image:alt',
                 content: "Party Corgi Network"
               },
