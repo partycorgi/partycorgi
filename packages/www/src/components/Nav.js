@@ -36,7 +36,7 @@ const Nav = ({ data, location }) => {
               backgroundColor: location.pathname === item.url ? 'blackTransparent' : 'none',
               color: location.pathname === item.url ? item.color : 'white',
 
-              '&:hover': {
+              '&:hover, &:focus': {
                 backgroundColor: 'blackTransparent',
                 color: item.color
               }
@@ -50,7 +50,7 @@ const Nav = ({ data, location }) => {
           sx={{
             ...navItemStyles,
 
-            '&:hover': {
+            '&:hover, &:focus': {
               backgroundColor: 'blackTransparent',
               color: 'blue'
             }
