@@ -52,7 +52,7 @@ export default {
         textDecorationColor: '#EA6AFF',
         transition: 'color 175ms ease-out',
 
-        '&:hover': {
+        '&:hover, &:focus': {
           color: 'blue'
         }
       },

@@ -15,7 +15,7 @@ export const buttonStyles = {
   textDecoration: 'none',
   fontWeight: 'heading',
 
-  '&:hover': {
+  '&:hover, &:focus': {
     backgroundColor: 'background'
   }
 }
