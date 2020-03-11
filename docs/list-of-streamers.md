@@ -20,12 +20,12 @@ List of streamers in the Party Corgi Discord.
 - [jacobbolda](https://www.twitch.tv/jacobbolda)
 - [kgarbaya](https://www.twitch.tv/kgarbaya)
 - [RyanWarnerCodes](https://www.twitch.tv/RyanWarnerCodes)
+- [ryanharris](https://twitch.tv/ryan_c_harris)
+- [domitrius_anthony](https://twitch.tv/domitrius_anthony)
 
 ### Mixer
 
-- [juicetrades](https://mixer.com/juicetrades)
 - [rheinardkorf](https://mixer.com/rheinardkorf)
-- [ryanharris](https://mixer.com/ryanharris)
 - [ncphi](https://mixer.com/ncphi)
 
 ### Events / Organizations
