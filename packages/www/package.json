@@ -16,6 +16,8 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
+    "@stripe/stripe-js": "^1.2.0",
+    "axios": "^0.19.2",
     "gatsby": "2.19.10",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-layout": "^1.1.22",
