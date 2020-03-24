@@ -18,7 +18,9 @@ export default () => {
       }}
     >
       <CapsTitle>Stickers</CapsTitle>
-      <button onClick={handleClick}>Buy Stickers</button>
+      <form action='/.netlify/create-checkout' method='POST'>
+        <button type='submit'>Buy Stickers</button>
+      </form>
       <p>This is currently a test — it doesn’t work yet!</p>
     </section>
   )
