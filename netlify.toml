@@ -1,4 +1,4 @@
 [build]
   command = "pushd functions/create-checkout && yarn && popd && yarn workspace www build"
   functions = "functions"
-  publish = "www/public"
+  publish = "packages/www/public"
