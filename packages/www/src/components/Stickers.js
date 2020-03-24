@@ -34,7 +34,7 @@ export default () => {
       <form
         action='/.netlify/functions/create-checkout'
         method='POST'
-        handleSubmit={handleSubmit}
+        onSubmit={handleSubmit}
       >
         <button type='submit'>Buy Stickers</button>
       </form>
