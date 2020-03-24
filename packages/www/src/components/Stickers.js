@@ -9,16 +9,16 @@ export default () => {
   const handleSubmit = async event => {
     event.preventDefault()
 
-    const { sessionId } = await axios.post(
-      '/.netlify/functions/create-checkout'
-    )
+    const { data } = await axios.post('/.netlify/functions/create-checkout')
+
+    console.log({ data })
 
     // TODO probably env var this
     const stripe = await loadStripe(
       'pk_test_38mtS6edMLcrnhLxmoAbTa1S00zC8bvrmi'
     )
     const { error } = await stripe.redirectToCheckout({
-      sessionId
+      sessionId: data.sessionId
     })
 
     alert(error.message)
