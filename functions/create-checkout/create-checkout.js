@@ -2,6 +2,10 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET)
 
 exports.handler = async (_event, _context) => {
   const session = await stripe.checkout.sessions.create({
+    billing_address_collection: 'auto',
+    shipping_address_collection: {
+      allowed_countries: ['US', 'CA']
+    },
     payment_method_types: ['card'],
     line_items: [
       {
@@ -16,8 +20,7 @@ exports.handler = async (_event, _context) => {
     ],
     success_url:
       'https://partycorgi.com/success?session_id={CHECKOUT_SESSION_ID}',
-    cancel_url: 'https://partycorgi.com/cancel',
-    shippingAddressCollection: true
+    cancel_url: 'https://partycorgi.com/cancel'
   })
 
   return {
