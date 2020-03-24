@@ -16,7 +16,8 @@ exports.handler = async (_event, _context) => {
     ],
     success_url:
       'https://partycorgi.com/success?session_id={CHECKOUT_SESSION_ID}',
-    cancel_url: 'https://partycorgi.com/cancel'
+    cancel_url: 'https://partycorgi.com/cancel',
+    shippingAddressCollection: true
   })
 
   return {
