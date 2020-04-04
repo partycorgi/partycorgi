@@ -1,0 +1,9 @@
+{
+  "name": "twitch",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Ryan Warner <ryan@warner.codes> (https://ryan.warner.codes)",
+  "dependencies": {
+    "axios": "0.19.2"
+  }
+}
