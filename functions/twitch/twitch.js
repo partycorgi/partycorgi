@@ -1,7 +1,4 @@
-const axios = require('axios')
-const qs = require('qs')
-
-const clientId = 'gxxzqrebbfbwskumjfbpsxve8tnsdn' //process.env.TWITCH_CLIENT_ID
+const clientId = process.env.TWITCH_CLIENT_ID
 const twitchApi = 'https://api.twitch.tv/helix'
 
 let streamers
@@ -14,19 +11,19 @@ const buildResponse = streamers => ({
   body: JSON.stringify(streamers)
 })
 
-
-
 exports.handler = async () => {
   if (streamers) buildResponse(streamers)
 
+  const axios = require('axios')
   const params = require('./buildStreamerParams')
+  const paramsSerializer = require('./paramsSerializer')
 
   const options = {
     headers: {
       'Client-ID': clientId
     },
     params,
-    paramsSerializer: (params) => qs.stringify(params, { arrayFormat: 'repeat' })
+    paramsSerializer
   }
 
   try {
