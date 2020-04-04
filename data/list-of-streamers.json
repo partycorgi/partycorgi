@@ -1,7 +1,87 @@
-[{
-  "username": "RyanWarnerCodes",
-  "url": "https://www.twitch.tv/RyanWarnerCodes"
-}, {
-  "username": "ryan_c_harris",
-  "url": "https://www.twitch.tv/ryan_c_harris"
-}]
+[
+  {
+    "username": "chrisbiscardi",
+    "url": "https://www.twitch.tv/chrisbiscardi"
+  },
+  {
+    "username": "thecodepixi",
+    "url": "https://www.twitch.tv/thecodepixi"
+  },
+  {
+    "username": "ecomath328",
+    "url": "https://www.twitch.tv/ecomath328"
+  },
+  {
+    "username": "horacioh",
+    "url": "https://www.twitch.tv/horacioh"
+  },
+  {
+    "username": "jlengstorf",
+    "url": "https://www.twitch.tv/jlengstorf"
+  },
+  {
+    "username": "lannonbr",
+    "url": "https://www.twitch.tv/lannonbr"
+  },
+  {
+    "username": "roberttables",
+    "url": "https://www.twitch.tv/roberttables"
+  },
+  {
+    "username": "ipwnpancakes",
+    "url": "https://www.twitch.tv/ipwnpancakes"
+  },
+  {
+    "username": "rahatcodes",
+    "url": "https://www.twitch.tv/rahatcodes"
+  },
+  {
+    "username": "marcuslyons_",
+    "url": "https://www.twitch.tv/marcuslyons_"
+  },
+  {
+    "username": "devopsjacquie",
+    "url": "https://www.twitch.tv/devopsjacquie"
+  },
+  {
+    "username": "KramerCodes",
+    "url": "https://www.twitch.tv/KramerCodes"
+  },
+  {
+    "username": "thatzacdavis",
+    "url": "https://www.twitch.tv/thatzacdavis"
+  },
+  {
+    "username": "JRGould",
+    "url": "https://www.twitch.tv/JRGould"
+  },
+  {
+    "username": "magnificode",
+    "url": "https://www.twitch.tv/magnificode"
+  },
+  {
+    "username": "jacobbolda",
+    "url": "https://www.twitch.tv/jacobbolda"
+  },
+  {
+    "username": "kgarbaya",
+    "url": "https://www.twitch.tv/kgarbaya"
+  },
+  {
+    "username": "RyanWarnerCodes",
+    "url": "https://www.twitch.tv/RyanWarnerCodes"
+  },
+  {
+    "username": "ryan_c_harris",
+    "url": "https://twitch.tv/ryan_c_harris"
+  },
+  {
+    "username": "domitrius_anthony",
+    "url": "https://twitch.tv/domitrius_anthony"
+  },
+  {
+    "username": "reactadelphia",
+    "url": "https://www.twitch.tv/reactadelphia/",
+    "type": "organization"
+  }
+]
