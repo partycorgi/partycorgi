@@ -2,7 +2,7 @@
  * the same key, such as /users?login=user1&login=user2
  *
  * Axios uses a JavaScript object to construct query params.
- * JavaScript object keys must all be the same, meaning we
+ * JavaScript object keys must all be unique, meaning we
  * must use a custom paramsSerializer to allow the param
  * object keys to contain arrays.
  *
