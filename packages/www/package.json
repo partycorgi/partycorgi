@@ -23,6 +23,7 @@
     "gatsby-plugin-layout": "^1.1.22",
     "gatsby-plugin-mdx": "^1.0.62",
     "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-sharp": "^2.5.4",
     "gatsby-plugin-theme-ui": "^0.3.0",
     "gatsby-source-discord": "*",
     "react": "^16.12.0",
