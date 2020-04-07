@@ -11,15 +11,17 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: 'gatsby-plugin-mdx',
       options: {
-        extensions: [`.mdx`, `.md`],
-      },
+        extensions: [`.mdx`, `.md`]
+      }
     },
     'gatsby-source-discord',
     'gatsby-plugin-theme-ui',
     'gatsby-plugin-layout',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
