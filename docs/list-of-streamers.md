@@ -23,6 +23,7 @@ List of streamers in the Party Corgi Discord.
 - [ryanharris](https://twitch.tv/ryan_c_harris)
 - [domitrius_anthony](https://twitch.tv/domitrius_anthony)
 - [jnielson94](https://twitch.tv/jnielson94)
+- [Sigmablade123](https://twitch.tv/sigmablade123)
 
 ### Mixer
 
