@@ -3,7 +3,7 @@ module.exports = {
     title: 'Party Corgi Network',
     description:
       "An inclusive community of content creators helping each other grow.",
-    discordInviteUrl: 'https://discord.gg/S9Gdagv',
+    discordInviteUrl: 'https://discord.gg/partycorgi',
     twitterImage: '/ogImage.jpg',
     twitterUsername: '@chrisbiscardi',
     siteUrl: 'https://partycorgi.com',
