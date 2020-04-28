@@ -1,0 +1,30 @@
+{
+  "name": "codecareer-discord-bot",
+  "version": "1.0.0",
+  "description": "CodeCareer Discord Bot",
+  "main": "index.js",
+  "repository": "https://github.com/GitCodeCareer/discord-bot.git",
+  "author": "CodeCareer.org",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "nodemon --exec jest --silent",
+    "watch": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.6.3",
+    "dotenv": "^8.2.0",
+    "firebase": "^7.13.2",
+    "handlebars": "^4.7.6",
+    "module-alias": "^2.2.2",
+    "node-fetch": "2.6.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2"
+  }
+}

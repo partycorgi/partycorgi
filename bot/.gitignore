@@ -1,0 +1,22 @@
+# Editor configurations
+.idea/
+.vscode/
+
+# Node Dependencies
+node_modules/
+
+# Useless files
+.DS_Store
+
+# Private Configuration files
+config.json
+.env
+
+dist/
+
+# log files
+logs/*.log
+
+# lock files
+package-lock.json
+yarn.lock

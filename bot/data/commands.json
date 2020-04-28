@@ -1,0 +1,99 @@
+[
+    {
+        "command": "announce",
+        "description": "For staff members to easily make server-wide announcements as the bot.",
+        "permissionLevel": "mod",
+        "arguments": [
+            "announcement"
+        ],
+        "active": true
+    },
+    {
+        "command": "help",
+        "description": "Display a list of commands and other information on how to use the bot.",
+        "permissionLevel": "all",
+        "arguments": [
+            "--[user|staff|mod|admin|owner]"
+        ],
+        "active": true
+    },
+    {
+        "command": "poll",
+        "description": "For staff members to easily post a reaction poll targeted at the community.",
+        "permissionLevel": "mod",
+        "arguments": [
+            "question"
+        ],
+        "active": true
+    },
+    {
+        "command": "reload",
+        "description": "Reload a command file. Useful for development purposes only.",
+        "permissionLevel": "owner",
+        "arguments": [
+            "command name"
+        ],
+        "active": true
+    },
+    {
+        "command": "resetconfig",
+        "description": "Reset the entire configuration in Firebase. Be careful with this!",
+        "permissionLevel": "owner",
+        "arguments": [],
+        "active": true
+    },
+    {
+        "command": "setchannel",
+        "description": "Mark a tagged channel as a specific type",
+        "permissionLevel": "admin",
+        "arguments": [
+            "channel type",
+            "tagged channel"
+        ],
+        "active": true
+    },
+    {
+        "command": "setrole",
+        "description": "Mark a tagged role as a specific permission level",
+        "permissionLevel": "owner",
+        "arguments": [
+            "permission level",
+            "tagged role"
+        ],
+        "active": true
+    },
+    {
+        "command": "ticket",
+        "description": "Opens a support ticket with a randomly assigned staff member. You will be messaged by the bot privately.",
+        "permissionLevel": "all",
+        "arguments": [
+            "enquiry"
+        ],
+        "active": true
+    },
+    {
+        "command": "sectional",
+        "description": "A complex command to create/read/update/delete sectionals in the information channel.",
+        "permissionLevel": "mod",
+        "arguments": [
+            "-h"
+        ],
+        "active": true
+    },
+    {
+        "command": "define",
+        "description": "Provides definition for words from the web.",
+        "permissionLevel": "all",
+        "arguments": [
+            "term"
+        ],
+        "active": true
+    },
+    {
+        "command": "quote",
+        "description": "A fun command to display a random moditvational quote and a random gif",
+        "permissionLevel": "all",
+        "arguments": [],
+        "active": true
+    }
+]
