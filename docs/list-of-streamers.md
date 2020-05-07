@@ -25,6 +25,7 @@ List of streamers in the Party Corgi Discord.
 - [jnielson94](https://twitch.tv/jnielson94)
 - [Sigmablade123](https://twitch.tv/sigmablade123)
 - [theworstdev](https://twitch.tv/theworstdev)
+- [jh3yy](https://twitch.tv/jh3yy)
 
 ### Mixer
 
