@@ -27,6 +27,7 @@ List of streamers in the Party Corgi Discord.
 - [theworstdev](https://twitch.tv/theworstdev)
 - [jh3yy](https://twitch.tv/jh3yy)
 - [josefAidt](https://twitch.tv/josefaidt)
+- [angelyoung24](https://twitch.tv/angelyoung24)
 
 ### Mixer
 
