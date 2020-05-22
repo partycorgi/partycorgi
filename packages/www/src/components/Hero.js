@@ -17,7 +17,7 @@ const Hero = data => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100vw',
+        width: '100%',
         height: ['auto', '684px'],
         padding: ['80px 0', 0],
         position: 'relative',

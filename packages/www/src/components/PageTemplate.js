@@ -15,7 +15,7 @@ export default ({ title, children }) => (
   >
     <div
       sx={{
-        width: '100vw',
+        width: '100%',
         height: ['220px', '336px'],
         top: 0,
         left: 0,
