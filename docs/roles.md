@@ -12,7 +12,7 @@ In the [Party Corgi Discord](https://discord.gg/partycorgi) we take advantage of
 
 ## Adventure Clubs
 
-> Knowledge Adventure Clubs are the intersection of book clubs intersects with Dungeons & Dragons.
+> Knowledge Adventure Clubs are the intersection of book clubs and Dungeons & Dragons.
 > \- [Joel Hooks](https://joelhooks.com/knowledge-adventure-club)
 
 [Knowledge adventure clubs](https://knowledgeadventure.club/) are used in Party Corgi for a variety of purposes including tabletop game campaigns, book clubs, and cohorts going through courses together. Anyone participating in an adventure club is given the role `adventure-club: <club>` where `<club>` is replaced with the specific club they participated in. This *can* be used to tag people if needed, but in general Party Corgi disables group mentions aside from the Moderator role.
