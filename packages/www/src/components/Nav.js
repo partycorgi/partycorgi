@@ -33,13 +33,18 @@ const Nav = ({ data, location }) => {
             to={item.url}
             sx={{
               ...navItemStyles,
-              backgroundColor: location.pathname === item.url ? 'blackTransparent' : 'none',
+              backgroundColor:
+                location.pathname === item.url ? 'blackTransparent' : 'none',
               color: location.pathname === item.url ? item.color : 'white',
 
               '&:hover, &:focus': {
                 backgroundColor: 'blackTransparent',
-                color: item.color
-              }
+                color: item.color,
+              },
+              '&:focus': {
+                outline: '0',
+                boxShadow: `0 0 0 2pt ${item.color}`,
+              },
             }}
           >
             {item.display}
@@ -52,8 +57,12 @@ const Nav = ({ data, location }) => {
 
             '&:hover, &:focus': {
               backgroundColor: 'blackTransparent',
-              color: 'blue'
-            }
+              color: 'blue',
+            },
+            '&:focus': {
+              outline: '0',
+              boxShadow: '0 0 0 2pt blue',
+            },
           }}
         >
           Join Discord
@@ -74,4 +83,9 @@ const query = graphql`
   }
 `
 
-export default props => <StaticQuery query={query} render={(data) => <Nav data={data} location={props.location} />} />
+export default props => (
+  <StaticQuery
+    query={query}
+    render={data => <Nav data={data} location={props.location} />}
+  />
+)

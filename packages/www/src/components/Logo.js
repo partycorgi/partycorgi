@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 import PartyCorgi from './PartyCorgi'
 import Wordmark from './Wordmark'
 
-export default ({ children }) =>
+export default ({ children }) => (
   <Link
     sx={{
       fontSize: 'navItem',
@@ -16,16 +16,21 @@ export default ({ children }) =>
 
       '&:hover': {
         '.corgiAnimated': {
-          opacity: 1
+          opacity: 1,
         },
 
         '.corgiStill': {
-          opacity: 0
-        }
-      }
+          opacity: 0,
+        },
+      },
+      '&:focus': {
+        outline: '0',
+        boxShadow: '0 0 0 2pt #62BFF2',
+      },
     }}
     to='/'
   >
     <PartyCorgi />
     <Wordmark />
   </Link>
+)

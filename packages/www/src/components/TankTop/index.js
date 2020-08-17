@@ -12,7 +12,7 @@ const tankTopUrl = 'https://store.egghead.io/product/party-corgi-tank-top'
 export default () => {
   return (
     <section sx={{
-      marginBottom: '50px'
+      marginBottom: '50px',
     }}>
       <CapsTitle>
         Party Corgi Tank Top
@@ -25,6 +25,9 @@ export default () => {
             'svg': {
               transform: 'scale3d(1.3, 1.3, 1.3) rotate(6deg)'
             }
+          },
+          '&:focus': {
+            outline: 'solid white'
           }
         }}
       >

@@ -18,7 +18,7 @@ export default () => {
       'pk_test_38mtS6edMLcrnhLxmoAbTa1S00zC8bvrmi'
     )
     const { error } = await stripe.redirectToCheckout({
-      sessionId: data.sessionId
+      sessionId: data.sessionId,
     })
 
     alert(error.message)
@@ -27,7 +27,7 @@ export default () => {
   return (
     <section
       sx={{
-        marginBottom: '50px'
+        marginBottom: '50px',
       }}
     >
       <CapsTitle>Stickers</CapsTitle>
@@ -36,7 +36,9 @@ export default () => {
         method='POST'
         onSubmit={handleSubmit}
       >
-        <button type='submit'>Buy Stickers</button>
+        <button type='submit' sx={{ '&:focus': { outline: 'solid #9668cc' } }}>
+          Buy Stickers
+        </button>
       </form>
       <p>This is currently a test — it doesn’t work yet!</p>
     </section>

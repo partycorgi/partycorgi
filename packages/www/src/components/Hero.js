@@ -21,7 +21,8 @@ const Hero = data => {
         height: ['auto', '684px'],
         padding: ['80px 0', 0],
         position: 'relative',
-        background: 'linear-gradient(164.92deg, #9B6BD3 12.72%, #00E992 84.21%)'
+        background:
+          'linear-gradient(164.92deg, #9B6BD3 12.72%, #00E992 84.21%)',
       }}
     >
       <MaxWidth
@@ -29,7 +30,7 @@ const Hero = data => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          width: '100%'
+          width: '100%',
         }}
       >
         <h1
@@ -38,16 +39,14 @@ const Hero = data => {
             marginBottom: '54px',
             maxWidth: '860px',
             textAlign: 'center',
-            color: 'purple10'
+            color: 'purple10',
           }}
         >
           {description}
         </h1>
         <a href={discordInviteUrl} target='_blank' sx={buttonStyles}>
           <Discord />
-          <span sx={{ marginLeft: '10px' }}>
-            Join Discord
-          </span>
+          <span sx={{ marginLeft: '10px' }}>Join Discord</span>
         </a>
       </MaxWidth>
     </section>
