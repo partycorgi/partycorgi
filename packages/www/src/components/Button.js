@@ -16,8 +16,12 @@ export const buttonStyles = {
   fontWeight: 'heading',
 
   '&:hover, &:focus': {
-    backgroundColor: 'background'
-  }
+    backgroundColor: 'background',
+  },
+  '&:focus': {
+    outline: '0',
+    boxShadow: '0 0 0 3pt #9668cc',
+  },
 }
 
 export default ({ children }) => <button sx={buttonStyles}>{children}</button>
