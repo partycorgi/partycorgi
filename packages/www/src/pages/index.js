@@ -1,29 +1,22 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui'
+import { h } from 'preact'
+import Layout from '../components/Layout/index.js'
+import Hero from '../components/Layout/Hero.js'
+// import { FaDiscord } from '@react-icons/all-files/fa/FaDiscord.js'
 
-import Hero from '../components/Hero'
-import Merch from '../components/Merch'
-import MaxWidth from '../components/MaxWidth'
-import LatestStreams from '../components/LatestStreams'
-
-export default props => (
-  <div
-    sx={{
-      fontSize: 4, // picks up value from `theme.fontSizes[4]`
-      color: 'primary' // picks up value from `theme.colors.primary`
-    }}
-  >
-    <Hero />
-    <div sx={{ display: 'flex', justifyContent: 'center' }}>
-      <MaxWidth sx={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: ['center', 'flex-start'],
-        flexDirection: ['column', 'row']
-      }}>
-        <LatestStreams />
-        <Merch />
-      </MaxWidth>
-    </div>
-  </div>
+const Home = () => (
+  <Layout>
+    <Hero>
+      <h1 className='text-5xl font-bold text-center pb-12 text-gray-900'>
+        An inclusive community of content creators helping each other grow.
+      </h1>
+      <a
+        href='https://discord.gg/partycorgi'
+        className='py-4 px-5 rounded-md bg-gray-900 font-semibold'
+      >
+        Join Discord
+      </a>
+    </Hero>
+  </Layout>
 )
+
+export default Home
