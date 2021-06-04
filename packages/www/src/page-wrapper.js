@@ -1,19 +1,21 @@
 import { h } from 'preact'
 import { Helmet } from 'react-helmet'
 import { MDXProvider } from '@mdx-js/preact'
+import Layout from './components/Layout/index.js'
 
 const components = {
   codeblock: props => <div class='bg-gray-400' {...props} />,
 }
-export default function PageWrapper(props) {
+export default function PageWrapper({ children, frontMatter }) {
+  console.log({ frontMatter })
   return (
     <MDXProvider components={components}>
-      <div>
+      <Layout>
         <Helmet>
           <link rel='stylesheet' href='/styles.css' />
         </Helmet>
-        {props.children}
-      </div>
+        {children}
+      </Layout>
     </MDXProvider>
   )
 }
