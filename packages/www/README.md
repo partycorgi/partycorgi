@@ -1,5 +1,21 @@
 # Welcome to your new Toast site!
 
+## Local development
+
+```shell
+npm install
+```
+
+```shell
+npm run build
+```
+
+```shell
+npm run serve
+```
+
+Rerun the `build` command on every change. This is required until a file watcher is added.
+
 ## scripts
 
 ### npm run postinstall
@@ -36,4 +52,12 @@ The site build command runs a full Toast build and outputs the results in `publi
 
 ```shell
 npm run build:site
+```
+
+### npm run serve
+
+This will serve the build output to your browser. serve defaults to http://localhost:5000
+
+```shell
+npx serve public
 ```

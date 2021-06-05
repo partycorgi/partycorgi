@@ -3,7 +3,6 @@ import { MDXProvider } from '@mdx-js/preact'
 import { Helmet } from 'react-helmet'
 import Header from './components/Header/index.js'
 import MDXComponents from './lib/MDXComponents.js'
-import Footer from './components/Footer.js'
 
 const PageWrapper = ({ children, meta }) => {
   return (
@@ -17,7 +16,6 @@ const PageWrapper = ({ children, meta }) => {
       <div className='flex flex-col min-h-screen w-full bg-gray-900 text-white'>
         <Header />
         <div className='flex-1 mt-[70px]'>{children}</div>
-        <Footer />
       </div>
     </MDXProvider>
   )

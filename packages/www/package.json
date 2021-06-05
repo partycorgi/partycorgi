@@ -10,10 +10,10 @@
     "build": "npm run build:css && npm run build:site",
     "build:css": "NODE_ENV=production postcss --config legacy-commonjs index.css -o public/styles.css",
     "build:css:watch": "postcss --config legacy-commonjs index.css -o public/styles.css -w",
-    "build:site": "toast incremental ."
+    "build:site": "toast incremental .",
+    "serve": "npx serve public"
   },
   "dependencies": {
-    "@react-icons/all-files": "^4.1.0",
     "@toastdotdev/mdx": "^0.2.3",
     "esinstall": "1.1.4",
     "postcss": "^8.2.9",
