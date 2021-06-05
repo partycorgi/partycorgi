@@ -4,7 +4,7 @@ import Wordmark from './Wordmark.js'
 
 const Logo = () => {
   return (
-    <a href='/' className='flex items-center font-bold'>
+    <a href='/' className='group flex items-center font-bold'>
       <PartyCorgi />
       <Wordmark />
     </a>
