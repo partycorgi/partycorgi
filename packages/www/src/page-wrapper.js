@@ -3,6 +3,9 @@ import { MDXProvider } from '@mdx-js/preact'
 import { Helmet } from 'react-helmet'
 import TopBar from './components/Header.js'
 import MDXComponents from './mdx-components.js'
+import Hero from './components/Layout/Hero.js'
+import MaxWidth from './components/Layout/MaxWidth.js'
+import { Heading } from './components/Typography.js'
 
 const PageWrapper = ({ children, meta }) => {
   return (
@@ -50,7 +53,20 @@ const PageWrapper = ({ children, meta }) => {
       <div className='flex flex-col min-h-screen w-full bg-gray-900 text-white'>
         <TopBar />
         <div className='flex-1 mt-[70px]'>
-          <MDXProvider components={MDXComponents}>{children}</MDXProvider>
+          <MDXProvider components={MDXComponents}>
+            {meta?.layout === 'centered-prose' ? (
+              <div>
+                <Hero className='items-start justify-center md:h-[382px]'>
+                  <Heading className='text-gray-900'>{meta.title}</Heading>
+                </Hero>
+                <div className='mx-5 bg-gray-700 py-12 px-5 rounded-lg transform -translate-y-24'>
+                  <MaxWidth>{children}</MaxWidth>
+                </div>
+              </div>
+            ) : (
+              <div>{children}</div>
+            )}
+          </MDXProvider>
         </div>
       </div>
     </div>
