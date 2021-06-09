@@ -17,4 +17,13 @@ const PartyCorgi = () => {
   )
 }
 
-export default PartyCorgi
+const Logo = () => {
+  return (
+    <a href='/' className='group flex items-center font-bold'>
+      <PartyCorgi />
+      <p className='font-bold group-hover:text-blue-400'>Party Corgi Network</p>
+    </a>
+  )
+}
+
+export default Logo

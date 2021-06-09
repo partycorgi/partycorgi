@@ -1,18 +1,24 @@
 {
-  "name": "toast-default-starter",
+  "name": "www",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
+  "contributors": [
+    "Chris Biscardi <chris@christopherbiscardi.com> (https://www.christopherbiscardi.com)",
+    "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
+    "Ryan Warner <ryan@warner.codes> (https://ryan.warner.codes)",
+    "Xander Low <me@alexlow.dev> (https://alexlow.dev/)"
+  ],
   "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
-  "license": "MIT",
   "scripts": {
     "postinstall": "./postinstall.js",
-    "build": "npm run build:css && npm run build:site",
+    "build": "yarn run build:css && yarn run build:site",
     "build:css": "NODE_ENV=production postcss --config legacy-commonjs index.css -o public/styles.css",
     "build:css:watch": "postcss --config legacy-commonjs index.css -o public/styles.css -w",
     "build:site": "toast incremental .",
     "serve": "npx serve public"
   },
+  "license": "MIT",
   "dependencies": {
     "@toastdotdev/mdx": "^0.2.3",
     "esinstall": "1.1.4",
@@ -24,10 +30,5 @@
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "pretty-bytes": "5.6.0"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true,
-    "jsxSingleQuote": true
   }
 }
