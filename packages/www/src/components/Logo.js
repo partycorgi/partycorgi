@@ -1,36 +1,29 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui'
-import { Link } from 'gatsby'
+import { h } from 'preact'
 
-import PartyCorgi from './PartyCorgi'
-import Wordmark from './Wordmark'
+const PartyCorgi = () => {
+  return (
+    <div className='group relative w-8 h-8 mr-3'>
+      <img
+        className='hidden group-hover:block absolute top-0 left-0 w-8 h-8'
+        src='/images/party-corgi.gif'
+        alt='Party Corgi animated GIF'
+      />
+      <img
+        className='block group-hover:hidden absolute top-0 left-0 w-8 h-8'
+        src='/images/party-corgi-still.gif'
+        alt='Party Corgi'
+      />
+    </div>
+  )
+}
 
-export default ({ children }) => (
-  <Link
-    sx={{
-      fontSize: 'navItem',
-      fontWeight: 'bold',
-      textDecoration: 'none',
-      display: 'flex',
-      alignItems: 'center',
+const Logo = () => {
+  return (
+    <a href='/' className='group flex items-center font-bold'>
+      <PartyCorgi />
+      <p className='font-bold group-hover:text-blue-400'>Party Corgi Network</p>
+    </a>
+  )
+}
 
-      '&:hover': {
-        '.corgiAnimated': {
-          opacity: 1,
-        },
-
-        '.corgiStill': {
-          opacity: 0,
-        },
-      },
-      '&:focus': {
-        outline: '0',
-        boxShadow: '0 0 0 2pt #62BFF2',
-      },
-    }}
-    to='/'
-  >
-    <PartyCorgi />
-    <Wordmark />
-  </Link>
-)
+export default Logo

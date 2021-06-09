@@ -1,5 +1,6 @@
 node_modules
-public
+public/
 .cache
+.tmp
 .env.development
 *.code-workspace
