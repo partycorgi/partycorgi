@@ -2,6 +2,13 @@
 
 ## Local development
 
+- `yarn install`
+- `npm run build`
+- `npx serve public`
+- Rerun the `build` command on every change. This is required until a file watcher is added.
+
+## Local development
+
 ```shell
 npm install
 ```
