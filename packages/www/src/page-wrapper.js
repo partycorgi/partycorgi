@@ -3,8 +3,8 @@ import { MDXProvider } from '@mdx-js/preact'
 import { Helmet } from 'react-helmet'
 import TopBar from './components/Header.js'
 import MDXComponents from './mdx-components.js'
-import Hero from './components/Layout/Hero.js'
-import MaxWidth from './components/Layout/MaxWidth.js'
+import Hero from './components/Hero.js'
+import { MaxWidth } from './components/Layout.js'
 import { Heading } from './components/Typography.js'
 
 const PageWrapper = ({ children, meta }) => {
