@@ -49,6 +49,7 @@ const PageWrapper = ({ children, meta }) => {
           href={'/images/party-corgi-still.gif'}
         />
         <link rel='stylesheet' href='/styles.css' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
       </Helmet>
       <div className='flex flex-col min-h-screen w-full bg-gray-900 text-white'>
         <TopBar />
