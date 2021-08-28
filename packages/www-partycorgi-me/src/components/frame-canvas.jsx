@@ -25,11 +25,7 @@ const FrameCanvas = forwardRef(
       image.src = frameSrc
     }, [ref, frameSrc, overlays, yOffset])
 
-    return (
-      <canvas ref={ref} id='canvas' width='125' height='125'>
-        your canvas loads here
-      </canvas>
-    )
+    return <canvas ref={ref} id='canvas' width='125' height='125'></canvas>
   }
 )
 
