@@ -1,6 +1,4 @@
-/** @jsx jsx */
-import { useEffect, useRef, useState } from 'react'
-import { jsx } from 'theme-ui'
+import { useRef, useState } from 'react'
 import gifshot from 'gifshot'
 import FrameCanvas from './frame-canvas'
 
@@ -18,7 +16,7 @@ const CORGI_FRAMES = [
   '/party-corgi-step-08.png',
   '/party-corgi-step-09.png',
   '/party-corgi-step-10.png',
-  '/party-corgi-step-11.png'
+  '/party-corgi-step-11.png',
 ]
 
 const GifTest = () => {
@@ -48,14 +46,14 @@ const GifTest = () => {
     { ref: canvasRef08, yOffset: -4 },
     { ref: canvasRef09, yOffset: -3 },
     { ref: canvasRef10, yOffset: 1 },
-    { ref: canvasRef11, yOffset: 1 }
+    { ref: canvasRef11, yOffset: 1 },
   ]
 
   const [img, setImg] = useState()
 
   const createGIF = () => {
     const images = refArray.map(({ ref }) => ref.current.toDataURL('image/png'))
-    gifshot.createGIF({ images }, function(obj) {
+    gifshot.createGIF({ images }, function (obj) {
       if (!obj.error) {
         var image = obj.image
         console.log({ image })
@@ -65,8 +63,8 @@ const GifTest = () => {
     })
   }
 
-  const overlay = new Image()
-  overlay.src = '/sunglasses-that-are-illegal.png'
+  // const overlay = new Image()
+  // overlay.src = '/sunglasses-that-are-illegal.png'
 
   return (
     <div sx={{ my: 5, mx: 'auto', maxWidth: 500 }}>

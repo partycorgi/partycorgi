@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
+import { useEffect, forwardRef } from 'react'
 
-const FrameCanvas = React.forwardRef(
+const FrameCanvas = forwardRef(
   ({ frameSrc, overlays = [], yOffset = 0 }, ref) => {
     useEffect(() => {
       if (!frameSrc) return
@@ -9,12 +9,12 @@ const FrameCanvas = React.forwardRef(
       const context = canvas.getContext('2d')
 
       const image = new Image()
-      image.onload = function() {
+      image.onload = function () {
         context.drawImage(image, 0, 0, canvas.width, canvas.height)
 
         overlays.forEach(src => {
           const overlay = new Image()
-          overlay.onload = function() {
+          overlay.onload = function () {
             context.drawImage(overlay, 0, yOffset, canvas.width, canvas.height)
           }
 
@@ -23,7 +23,7 @@ const FrameCanvas = React.forwardRef(
       }
 
       image.src = frameSrc
-    }, [ref, frameSrc])
+    }, [ref, frameSrc, overlays, yOffset])
 
     return (
       <canvas ref={ref} id='canvas' width='125' height='125'>
