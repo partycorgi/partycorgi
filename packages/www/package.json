@@ -12,7 +12,7 @@
   "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
   "scripts": {
     "postinstall": "./postinstall.js",
-    "build": "yarn run build:css && yarn run build:site",
+    "build": "npm run build:css && npm run build:site",
     "build:css": "NODE_ENV=production postcss --config legacy-commonjs index.css -o public/styles.css",
     "build:css:watch": "postcss --config legacy-commonjs index.css -o public/styles.css -w",
     "build:site": "toast incremental .",
