@@ -6,9 +6,9 @@ use lamedh_http::{
 #[lambda(http)]
 #[tokio::main]
 async fn main(
-    _: Request,
-    _: Context,
+    request: Request,
+    context: Context,
 ) -> Result<impl IntoResponse, Error> {
-    dbg!("in main");
+    dbg!(request, context);
     Ok("boop")
 }
