@@ -57,7 +57,8 @@ const GifTest = () => {
     
     var gif = new GIF({
       workers: 2,
-      quality: 10
+      quality: 10,
+      transparent: "#000000"
     });
   
     
@@ -76,7 +77,6 @@ const GifTest = () => {
     });
     
     gif.render();
-      
   }
 
   return (
