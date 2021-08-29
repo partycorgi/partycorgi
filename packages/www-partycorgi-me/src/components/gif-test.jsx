@@ -53,18 +53,31 @@ const GifTest = () => {
 
   const createGIF = () => {
     const images = refArray.map(({ ref }) => ref.current.toDataURL('image/png'))
-    gifshot.createGIF({ images }, function (obj) {
-      if (!obj.error) {
-        var image = obj.image
-        console.log({ image })
 
-        setImg(image)
-      }
-    })
+    
+    var gif = new GIF({
+      workers: 2,
+      quality: 10
+    });
+  
+    
+    refArray.forEach(({ref}) => {
+        console.log(ref.current)
+    // add an image element
+    // gif.addFrame(imageElement);
+  //  // or copy the pixels from a canvas context
+  //  gif.addFrame(ctx, {copy: true});
+      // or a canvas element
+      gif.addFrame(ref.current, {delay: 1200/100});
+    });
+    
+    gif.on('finished', function(blob) {
+      setImg(URL.createObjectURL(blob));
+    });
+    
+    gif.render();
+      
   }
-
-  // const overlay = new Image()
-  // overlay.src = '/sunglasses-that-are-illegal.png'
 
   return (
     <div sx={{ my: 5, mx: 'auto', maxWidth: 500 }}>
