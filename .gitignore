@@ -4,3 +4,4 @@ public/
 .tmp
 .env.development
 *.code-workspace
+target
