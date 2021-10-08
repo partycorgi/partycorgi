@@ -79,10 +79,10 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 
 ## Acknowledgements
 
-This Code of Conduct is adapted from the Community Covenant (http://community-covenant.net), version 1.0, available at http://community-covenant.net/version/1/0/. The Community Covenant is an open source effort and is built on codes of conduct that came before it, including the Contributor Covenant (http://contributor-covenant.org/) and the LGBTQ in Tech community code of conduct (http://lgbtq.technology/coc.html).
+This Code of Conduct is adapted from the Community Covenant (https://web.archive.org/web/20210124223558/http://community-covenant.net/), version 1.0, available at http://community-covenant.net/version/1/0/. The Community Covenant is an open source effort and is built on codes of conduct that came before it, including the Contributor Covenant (http://contributor-covenant.org/) and the LGBTQ in Tech community code of conduct (http://lgbtq.technology/coc.html).
 
 This CoC also includes material adapted from the LGBTQ in Tech community code of conduct (http://lgbtq.technology/coc.html) beyond what the community covenant includes.
 
 License 
 
-Community Covenant by Coraline Ada Ehmke is licensed under a Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/). Based on a work at http://community-covenant.net/.
+Community Covenant by Coraline Ada Ehmke is licensed under a Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/). Based on a work at https://web.archive.org/web/20210124223558/http://community-covenant.net/.
