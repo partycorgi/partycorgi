@@ -3,8 +3,8 @@ import { MDXProvider } from '@mdx-js/preact'
 import { Helmet } from 'react-helmet'
 import TopBar from './components/Header.js'
 import MDXComponents from './mdx-components.js'
-import Hero from './components/Layout/Hero.js'
-import MaxWidth from './components/Layout/MaxWidth.js'
+import Hero from './components/Hero.js'
+import { MaxWidth } from './components/Layout.js'
 import { Heading } from './components/Typography.js'
 
 const PageWrapper = ({ children, meta }) => {
@@ -48,6 +48,7 @@ const PageWrapper = ({ children, meta }) => {
           type='image/gif'
           href={'/images/party-corgi-still.gif'}
         />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <link rel='stylesheet' href='/styles.css' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
       </Helmet>

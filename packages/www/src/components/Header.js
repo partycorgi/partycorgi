@@ -1,7 +1,26 @@
 import { h } from 'preact'
 import { useState } from 'preact/hooks'
 import Logo from './Logo.js'
-import MaxWidth from './Layout/MaxWidth.js'
+import { MaxWidth } from './Layout.js'
+import ExternalLink from '../components/Icons/ExternalLink.js'
+
+const navRoutes = [
+  {
+    title: 'Code of Conduct',
+    href: '/code-of-conduct',
+    isExternal: false,
+  },
+  {
+    title: 'Assets',
+    href: '/assets',
+    isExternal: false,
+  },
+  {
+    title: 'Podcast',
+    href: 'https://party-corgi-podcast.simplecast.com/',
+    isExternal: true,
+  },
+]
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false)
@@ -13,18 +32,18 @@ const Header = () => {
           <div className='relative flex justify-between items-center py-2 px-0 md:px-5 rounded-xl h-full'>
             <Logo />
             <nav className='relative hidden md:flex z-[1]'>
-              <a
-                className='py-2 px-4 ml-2 font-semibold text-md rounded-lg hover:bg-red-400 transition-all duration-200 ease-in-out'
-                href='/code-of-conduct'
-              >
-                Code of Conduct
-              </a>
-              <a
-                className='py-2 px-4 ml-2 font-semibold text-md rounded-lg hover:bg-red-400 transition-all duration-200 ease-in-out'
-                href='/assets'
-              >
-                Assets
-              </a>
+              {navRoutes.map((route, i) => {
+                const { title, href, isExternal } = route
+                return (
+                  <a
+                    key={i}
+                    className='flex items-center py-2 px-4 ml-2 font-semibold text-md rounded-lg hover:bg-red-400 transition-all duration-200 ease-in-out'
+                    href={href}
+                  >
+                    {title} {isExternal && <ExternalLink />}
+                  </a>
+                )
+              })}
             </nav>
             <MenuToggle onClick={() => setOpen(!isOpen)} />
           </div>
